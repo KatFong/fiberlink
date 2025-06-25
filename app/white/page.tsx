@@ -12,18 +12,15 @@ export default function WhiteHomePage() {
     <main className="min-h-screen bg-white">
       <HeroBannerWhite />
 
-      {/* Our Story Section */}
-      <section className="py-16 bg-gradient-to-b from-white to-blue-50/50">
+      {/* About Us Section */}
+      <section className="py-16 bg-white">
         <div className="container px-4 md:px-6">
-          <div className="text-center max-w-3xl mx-auto">
-            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">我們的故事</h2>
-            <div className="mx-auto mb-6 h-1 w-24 bg-blue-500"></div>
-            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-lg border border-blue-200/30 shadow-lg">
-              <p className="text-sm text-blue-600 mb-4 font-medium">HKT 集團成員企業</p>
-              <p className="text-gray-600 text-lg leading-relaxed">
-                作為專業的工程技術公司，我們專注於為香港企業提供高品質的光纖網絡基建服務，支持企業數字化轉型和業務增長。
-              </p>
-            </div>
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="mb-8 text-3xl font-bold text-gray-900 md:text-4xl">關於我們</h2>
+            <p className="text-blue-600 mb-6 font-medium">HKT 集團成員企業</p>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              作為專業的工程技術公司，我們專注於為香港企業提供高品質的光纖網絡基建服務，支持企業數字化轉型和業務增長。
+            </p>
           </div>
         </div>
       </section>
