@@ -4,10 +4,13 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 import Link from "next/link"
 
 export default function HeroBanner() {
   const t = useTranslations('hero')
+  const params = useParams()
+  const locale = params.locale as string
 
   return (
     <section className="relative h-[70vh] min-h-[600px] w-full overflow-hidden">
@@ -43,13 +46,13 @@ export default function HeroBanner() {
               {t('ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly')}
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <Link href="/case-studies">
+              <Link href={`/${locale}/case-studies`}>
                 <Button size="lg" className="group bg-blue-600 hover:bg-blue-700">
                   {t('getACustomSolution')}
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="/technical-capabilities">
+              <Link href={`/${locale}/technical-capabilities`}>
                 <Button size="lg" variant="outline" className="border-blue-700 text-white hover:bg-blue-900/20">
                   {t('contactUs')}
                 </Button>

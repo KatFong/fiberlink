@@ -36,27 +36,27 @@ export function SiteFooter() {
             <h3 className="text-lg font-bold text-white">{t('services')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/services#fiber-installation" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/services#fiber-installation`} className="text-muted-foreground hover:text-blue-400">
                   {t('professionalFiberInstallation')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#network-solutions" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/services#network-solutions`} className="text-muted-foreground hover:text-blue-400">
                   {t('enterpriseNetworkSolutions')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#technical-support" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/services#technical-support`} className="text-muted-foreground hover:text-blue-400">
                   {t('technicalSupport')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#managed-services" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/services#managed-services`} className="text-muted-foreground hover:text-blue-400">
                   {t('networkManagementServices')}
                 </Link>
               </li>
               <li>
-                <Link href="/services#cloud-connectivity" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/services#cloud-connectivity`} className="text-muted-foreground hover:text-blue-400">
                   {t('cloudConnectivitySolutions')}
                 </Link>
               </li>
@@ -66,12 +66,12 @@ export function SiteFooter() {
             <h3 className="text-lg font-bold text-white">{t('ourStory')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/case-studies/800g-ai-superhighway" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/case-studies/800g-ai-superhighway`} className="text-muted-foreground hover:text-blue-400">
                   {t('case800g')}
                 </Link>
               </li>
               <li>
-                <Link href="/case-studies/lamma-island" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/case-studies/lamma-island`} className="text-muted-foreground hover:text-blue-400">
                   {t('caseLamma')}
                 </Link>
               </li>
@@ -81,22 +81,22 @@ export function SiteFooter() {
             <h3 className="text-lg font-bold text-white">{t('resources')}</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/case-studies" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/case-studies`} className="text-muted-foreground hover:text-blue-400">
                   {t('caseStudies')}
                 </Link>
               </li>
               <li>
-                <Link href="/resources" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/resources`} className="text-muted-foreground hover:text-blue-400">
                   {t('technicalWhitepapers')}
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/faq`} className="text-muted-foreground hover:text-blue-400">
                   {t('faq')}
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-muted-foreground hover:text-blue-400">
+                <Link href={`/${locale}/blog`} className="text-muted-foreground hover:text-blue-400">
                   {t('enterpriseNetworkBlog')}
                 </Link>
               </li>
@@ -122,13 +122,13 @@ export function SiteFooter() {
             </div>
             <div className="flex items-center gap-6">
               <div className="flex gap-4 text-sm text-muted-foreground">
-                <Link href="/privacy-policy" className="hover:text-blue-400">
+                <Link href={`/${locale}/privacy-policy`} className="hover:text-blue-400">
                   {t('privacyPolicy')}
                 </Link>
-                <Link href="/terms-of-service" className="hover:text-blue-400">
+                <Link href={`/${locale}/terms-of-service`} className="hover:text-blue-400">
                   {t('termsOfService')}
                 </Link>
-                <Link href="/sitemap" className="hover:text-blue-400">
+                <Link href={`/${locale}/sitemap`} className="hover:text-blue-400">
                   {t('sitemap')}
                 </Link>
               </div>

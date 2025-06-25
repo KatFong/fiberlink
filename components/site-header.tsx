@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname, useParams } from "next/navigation"
 import { Menu } from "lucide-react"
 import { useTranslations } from "next-intl"
 
@@ -12,6 +12,8 @@ import LanguageSwitcher from "@/components/LanguageSwitcher"
 
 export function SiteHeader() {
   const pathname = usePathname()
+  const params = useParams()
+  const locale = params.locale as string
   const t = useTranslations('header')
 
   return (
@@ -29,17 +31,17 @@ export function SiteHeader() {
             className="w-[300px] sm:w-[400px] border-blue-900/20 bg-blue-950/90 backdrop-blur-md"
           >
             <nav className="flex flex-col gap-6 pt-6">
-              <Link href="/" className="text-lg font-bold tracking-tight text-white">
+              <Link href={`/${locale}`} className="text-lg font-bold tracking-tight text-white">
                 Fiberlink
               </Link>
               <div className="grid gap-3">
                 {[
-                  { href: "/", label: t('home') },
-                  { href: "/about", label: t('about') },
-                  { href: "/services", label: t('services') },
-                  { href: "/case-studies", label: t('successStories') },
-                  { href: "/resources", label: t('resources') },
-                  { href: "/contact", label: t('contact') },
+                  { href: `/${locale}`, label: t('home') },
+                  { href: `/${locale}/about`, label: t('about') },
+                  { href: `/${locale}/services`, label: t('services') },
+                  { href: `/${locale}/case-studies`, label: t('successStories') },
+                  { href: `/${locale}/resources`, label: t('resources') },
+                  { href: `/${locale}/contact`, label: t('contact') },
                 ].map((item) => (
                   <Link
                     key={item.href}
@@ -56,17 +58,17 @@ export function SiteHeader() {
             </nav>
           </SheetContent>
         </Sheet>
-        <Link href="/" className="mr-6 flex items-center space-x-2">
+        <Link href={`/${locale}`} className="mr-6 flex items-center space-x-2">
           <span className="text-xl font-bold tracking-tight text-white">Fiberlink</span>
         </Link>
         <nav className="hidden gap-6 lg:flex">
           {[
-            { href: "/", label: t('home') },
-            { href: "/about", label: t('about') },
-            { href: "/services", label: t('services') },
-            { href: "/case-studies", label: t('successStories') },
-            { href: "/resources", label: t('resources') },
-            { href: "/contact", label: t('contact') },
+            { href: `/${locale}`, label: t('home') },
+            { href: `/${locale}/about`, label: t('about') },
+            { href: `/${locale}/services`, label: t('services') },
+            { href: `/${locale}/case-studies`, label: t('successStories') },
+            { href: `/${locale}/resources`, label: t('resources') },
+            { href: `/${locale}/contact`, label: t('contact') },
           ].map((item) => (
             <Link
               key={item.href}
@@ -82,7 +84,7 @@ export function SiteHeader() {
         </nav>
         <div className="ml-auto flex items-center gap-2">
           <LanguageSwitcher />
-          <Link href="/case-studies">
+          <Link href={`/${locale}/case-studies`}>
             <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
               {t('ourSuccessStories')}
             </Button>
