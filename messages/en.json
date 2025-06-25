@@ -1,0 +1,108 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "language": "Language",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "ourStory": "Our Story",
+    "ourStoryDesc": "Providing comprehensive fiber optic network solutions to meet the needs of all types of businesses",
+    "learnMore": "Learn More",
+    "successStories": "Success Stories",
+    "successStoriesDesc": "See how our fiber optic solutions have transformed businesses across various industries",
+    "readCaseStudy": "Read Case Study",
+    "testimonials": "Client Testimonials",
+    "testimonialsDesc": "Hear what our clients have to say about our fiber optic solutions and services",
+    "service1": {
+      "title": "Professional Fiber Installation",
+      "description": "Our expert team plans and installs high-speed fiber optic networks for your business, ensuring optimal performance and reliability"
+    },
+    "service2": {
+      "title": "Enterprise Network Solutions",
+      "description": "Comprehensive network solutions providing high-speed, stable, and secure enterprise network environments"
+    },
+    "service3": {
+      "title": "24/7 Technical Support",
+      "description": "Round-the-clock professional technical support ensures your network runs smoothly and resolves any issues quickly"
+    },
+    "caseStudy1": {
+      "title": "Submarine Cable",
+      "date": "December 2019",
+      "heading": "World's First Ultra-High Core Count Digital Submarine Cable",
+      "description": "We have successfully deployed the Ultra Express Link (UEL), the world's first submarine cable equipped with 2,016 optical fiber cores, directly connecting the data centers in Tseung Kwan O and Chai Wan.",
+      "imageAlt": "IT professional monitoring network performance in a modern data center",
+      "points": {
+        "1": "Ultra-high capacity with 2,016 optical fiber cores",
+        "2": "The shortest submarine cable path of only 2.76 km",
+        "3": "Ultra-low latency of just 15 microseconds"
+      }
+    },
+    "caseStudy2": {
+      "title": "Lamma Island",
+      "date": "April 2024",
+      "heading": "Lamma Island Fibre Network Coverage Project",
+      "description": "We have successfully built a fibre network on Lamma Island, offering residents their first residential high-speed broadband experience. The network is expected to cover 19 villages on the island within this year, delivering symmetrical speeds of up to 10Gbps.",
+      "imageAlt": "Lamma Island fibre network coverage",
+      "points": {
+        "1": "Symmetrical 10Gbps download and upload speeds",
+        "2": "Coverage extended to 19 villages",
+        "3": "Supports 4K streaming and 5G services"
+      }
+    },
+    "caseStudy3": {
+      "title": "800G AI Superhighway",
+      "date": "April 2024",
+      "heading": "800G AI Superhighway",
+      "description": "FiberLink's 800G AI Superhighway service is purpose-built for AI, high-performance computing, cloud, and data center interconnection. It meets the high-bandwidth demands of the new era, enabling data flow and computing power convergence in the age of AI and supercomputing.",
+      "imageAlt": "Modern data center infrastructure",
+      "points": {
+        "1": "800G ultra-high-speed optical fibre backbone",
+        "2": "Scalable AI computing integration and expansion",
+        "3": "Supports supercomputing centers, science parks, tech enterprises, and universities"
+      }
+    },
+    "testimonial1": {
+      "quote": "FiberLink's enterprise network solution transformed our operations. The speed and reliability have been exceptional, and their support team is always responsive.",
+      "author": "Sarah Chen",
+      "position": "CTO",
+      "company": "AsiaPac Banking Ltd",
+      "image": "/placeholder.svg?height=100&width=100"
+    },
+    "testimonial2": {
+      "quote": "We needed a network that could handle massive data transfers for our research projects. FiberLink delivered a solution that exceeded our expectations and scaled with our needs.",
+      "author": "Dr. Michael Wong",
+      "position": "IT Director",
+      "company": "Hong Kong Research Institute",
+      "image": "/placeholder.svg?height=100&width=100"
+    },
+    "testimonial3": {
+      "quote": "The reliability of our network is critical for patient care. Since implementing FiberLink's solution, we've had zero downtime and significantly improved our digital healthcare services.",
+      "author": "Jennifer Lau",
+      "position": "Head of IT Infrastructure",
+      "company": "Central Medical Center",
+      "image": "/placeholder.svg?height=100&width=100"
+    }
+  },
+  "header": {
+    "fibralink": "Fibralink",
+    "home": "Home",
+    "ourStory": "Our Story",
+    "caseStudies": "Case Studies",
+    "resources": "Resources",
+    "contact": "Contact",
+    "support": "Support",
+    "getAQuote": "Get a Quote",
+    "clientLogin": "Client Login"
+  },
+  "hero": {
+    "professionalFiberOpticNetworkSolutions": "Professional Fiber Optic Network Solutions",
+    "enterpriseGrade": "Enterprise-Grade",
+    "fiberOpticNetworks": "Fiber Optic Networks",
+    "ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly": "Our expert team provides high-speed, stable, and secure fiber optic infrastructure to ensure your business runs smoothly",
+    "getACustomSolution": "See our Success Stories",
+    "contactUs": "Explore our Technologies",
+    "businessClients": "Business Clients",
+    "networkAvailability": "Network Availability",
+    "247TechnicalSupport": "24/7 Technical Support"
+  }
+} 

@@ -1,0 +1,108 @@
+{
+  "common": {
+    "welcome": "欢迎",
+    "language": "语言",
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系我们",
+    "ourStory": "我们的故事",
+    "ourStoryDesc": "为各类型企业提供全面的光纤网络解决方案",
+    "learnMore": "了解更多",
+    "successStories": "成功案例",
+    "successStoriesDesc": "看看我们的光纤解决方案如何改变各行各业的企业",
+    "readCaseStudy": "阅读案例研究",
+    "testimonials": "客户评价",
+    "testimonialsDesc": "听听我们的客户对我们的光纤解决方案和服务的评价",
+    "service1": {
+      "title": "专业光纤安装",
+      "description": "我们的专业团队为您的企业规划和安装高速光纤网络，确保最佳性能和可靠性"
+    },
+    "service2": {
+      "title": "企业网络解决方案",
+      "description": "全面的网络解决方案，提供高速、稳定和安全的企业网络环境"
+    },
+    "service3": {
+      "title": "24/7 技术支持",
+      "description": "全天候专业技术支持确保您的网络顺畅运行并快速解决任何问题"
+    },
+    "caseStudy1": {
+      "title": "海底电缆",
+      "date": "2019年12月",
+      "heading": "全球首条超高芯数数字海底电缆",
+      "description": "我们成功部署了Ultra Express Link (UEL)，这是全球首条配备2,016个光纤芯的海底电缆，直接连接将军澳和柴湾的数据中心。",
+      "imageAlt": "IT专业人员在现代数据中心监控网络性能",
+      "points": {
+        "1": "配备2,016个光纤芯的超高容量",
+        "2": "最短的海底电缆路径，仅2.76公里",
+        "3": "超低延迟，仅15微秒"
+      }
+    },
+    "caseStudy2": {
+      "title": "南丫岛",
+      "date": "2024年4月",
+      "heading": "南丫岛光纤网络覆盖项目",
+      "description": "我们成功在南丫岛建立了光纤网络，为居民提供首次住宅高速宽带体验。该网络预计在今年内覆盖岛上19个村落，提供高达10Gbps的对称速度。",
+      "imageAlt": "南丫岛光纤网络覆盖",
+      "points": {
+        "1": "10Gbps对称上下载速度",
+        "2": "覆盖范围扩展至19个村落",
+        "3": "支持4K串流和5G服务"
+      }
+    },
+    "caseStudy3": {
+      "title": "800G AI 超级高速公路",
+      "date": "2024年4月",
+      "heading": "800G AI 超级高速公路",
+      "description": "FiberLink的800G AI超级高速公路服务专为AI、高性能计算、云端和数据中心互连而设计。它满足新时代的高频宽需求，实现AI和超级计算时代的数据流和计算能力融合。",
+      "imageAlt": "现代数据中心基础设施",
+      "points": {
+        "1": "800G超高速光纤骨干",
+        "2": "可扩展的AI计算整合和扩展",
+        "3": "支持超级计算中心、科学园、科技企业和大学"
+      }
+    },
+    "testimonial1": {
+      "quote": "FiberLink的企业网络解决方案改变了我们的运营。速度和可靠性都非常出色，他们的支持团队总是反应迅速。",
+      "author": "Sarah Chen",
+      "position": "技术总监",
+      "company": "亚太银行有限公司",
+      "image": "/placeholder.svg?height=100&width=100"
+    },
+    "testimonial2": {
+      "quote": "我们需要一个能够处理大量数据传输的网络来支持我们的研究项目。FiberLink提供的解决方案超出了我们的期望，并能够随着我们的需求扩展。",
+      "author": "Dr. Michael Wong",
+      "position": "IT总监",
+      "company": "香港研究院",
+      "image": "/placeholder.svg?height=100&width=100"
+    },
+    "testimonial3": {
+      "quote": "我们网络的可靠性对患者护理至关重要。自从实施FiberLink的解决方案以来，我们实现了零停机时间，并显著改善了我们的数字医疗服务。",
+      "author": "Jennifer Lau",
+      "position": "IT基础设施主管",
+      "company": "中央医疗中心",
+      "image": "/placeholder.svg?height=100&width=100"
+    }
+  },
+  "header": {
+    "fibralink": "Fibralink",
+    "home": "首页",
+    "ourStory": "我们的故事",
+    "caseStudies": "成功案例",
+    "resources": "资源",
+    "contact": "联系我们",
+    "support": "支持",
+    "getAQuote": "获取报价",
+    "clientLogin": "客户登录"
+  },
+  "hero": {
+    "professionalFiberOpticNetworkSolutions": "专业光纤网络方案",
+    "enterpriseGrade": "企业级",
+    "fiberOpticNetworks": "光纤网络",
+    "ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly": "我们的专家团队为您提供高速、稳定、安全的光纤基础设施，确保您的业务顺利运行",
+    "getACustomSolution": "成功案例一览",
+    "contactUs": "探索我们的技术",
+    "businessClients": "商业客户",
+    "networkAvailability": "网络可用率",
+    "247TechnicalSupport": "24/7 技术支持"
+  }
+} 
