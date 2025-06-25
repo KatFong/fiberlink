@@ -26,7 +26,7 @@ export default function WhiteHomePage() {
       </section>
 
       {/* Featured Projects Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">主要工程項目</h2>
