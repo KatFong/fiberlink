@@ -23,7 +23,7 @@ export default function WhiteHomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-200/50">
-                <Image src="/images/aboutUs.jpeg" alt="FiberLink about us and our story" fill className="object-cover" />
+                <Image src="/fiberlink/images/aboutUs.jpeg" alt="FiberLink about us and our story" fill className="object-cover" />
               </div>
               <div className="absolute -top-6 -left-6 w-32 h-32 border border-blue-200/60 rounded-lg -z-10"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-blue-200/60 rounded-lg -z-10"></div>
@@ -67,7 +67,7 @@ export default function WhiteHomePage() {
             <div className="bg-white rounded-lg border border-blue-200/60 shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
                 <Image
-                  src="/images/corporate-network.png"
+                  src="/fiberlink/images/corporate-network.png"
                   alt="企業網絡解決方案"
                   fill
                   className="object-cover"
@@ -97,7 +97,7 @@ export default function WhiteHomePage() {
             <div className="bg-white rounded-lg border border-blue-200/60 shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
                 <Image
-                  src="/images/lamma.jpg"
+                  src="/fiberlink/images/lamma.jpg"
                   alt="南丫島光纖網絡覆蓋項目"
                   fill
                   className="object-cover"
@@ -127,7 +127,7 @@ export default function WhiteHomePage() {
             <div className="bg-white rounded-lg border border-blue-200/60 shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="relative h-48">
                 <Image
-                  src="/images/800G-AI Superhighway.jpg"
+                  src="/fiberlink/images/800G-AI Superhighway.jpg"
                   alt="800G AI 超級公路"
                   fill
                   className="object-cover"

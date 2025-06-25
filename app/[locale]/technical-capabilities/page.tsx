@@ -127,7 +127,7 @@ export default function TechnicalCapabilitiesPage() {
             <div className="relative">
               <div className="relative h-[300px] rounded-lg overflow-hidden border border-blue-900/30">
                 <Image
-                  src="/images/800G-AI Superhighway.jpg"
+                  src="/fiberlink/images/800G-AI Superhighway.jpg"
                   alt="800G AI Superhighway infrastructure"
                   fill
                   className="object-cover"

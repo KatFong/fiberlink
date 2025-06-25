@@ -123,7 +123,7 @@ function WhiteFooter() {
             <div className="flex items-center gap-6">
               <div className="flex flex-col items-center">
                 <Image
-                  src='/images/logo-site-footer-tc.png'
+                  src='/fiberlink/images/logo-site-footer-tc.png'
                   alt='電訊盈科集團成員'
                   width={120}
                   height={40}

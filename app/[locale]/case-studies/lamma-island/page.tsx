@@ -61,7 +61,7 @@ export default function LammaIslandPage() {
             <div className="relative">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-900/20">
                 <Image 
-                  src="/images/lamma.jpg" 
+                  src="/fiberlink/images/lamma.jpg" 
                   alt={t('caseStudy2.imageAlt')} 
                   fill 
                   className="object-cover" 

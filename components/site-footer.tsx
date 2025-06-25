@@ -135,7 +135,7 @@ export function SiteFooter() {
               {/* PCCW Group Member Logo */}
               <div className="flex flex-col items-center">
                                   <Image
-                    src={locale === 'en' ? '/images/logo-site-footer-en.png' : '/images/logo-site-footer-tc.png'}
+                    src={locale === 'en' ? '/fiberlink/images/logo-site-footer-en.png' : '/fiberlink/images/logo-site-footer-tc.png'}
                     alt={locale === 'en' ? 'a PCCW Group member' : '電訊盈科集團成員'}
                     width={120}
                   height={40}

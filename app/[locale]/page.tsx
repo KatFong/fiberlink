@@ -33,13 +33,13 @@ export default function Home() {
             <p className="mx-auto max-w-2xl text-gray-400">{t('ourStoryDesc')}</p>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="relative">
-              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-900/20">
-                <Image src="/images/aboutUs.jpeg" alt="FiberLink about us and our story" fill className="object-cover" />
-              </div>
-              <div className="absolute -top-6 -left-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
-            </div>
+                    <div className="relative">
+          <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-900/20">
+            <Image src="/fiberlink/images/aboutUs.jpeg" alt="FiberLink about us and our story" fill className="object-cover" />
+          </div>
+          <div className="absolute -top-6 -left-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
+          <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
+        </div>
             <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-blue-900/30">
               <h3 className="text-2xl font-bold mb-6 text-white">{t('ourStoryTitle')}</h3>
               <p className="text-sm text-blue-400 mb-4 font-medium">{t('ourStorySubtitle')}</p>
@@ -92,7 +92,7 @@ export default function Home() {
               <div className="grid gap-8 md:grid-cols-2 items-center">
                 <div className="relative h-[300px] rounded-lg overflow-hidden border border-blue-900/30">
                   <Image
-                    src="/images/corporate-network.png"
+                    src="/fiberlink/images/corporate-network.png"
                     alt={t('caseStudy1.imageAlt')}
                     fill
                     className="object-cover"
@@ -125,7 +125,7 @@ export default function Home() {
               <div className="grid gap-8 md:grid-cols-2 items-center">
                 <div className="relative h-[300px] rounded-lg overflow-hidden border border-blue-900/30">
                   <Image
-                    src="/images/lamma.jpg"
+                    src="/fiberlink/images/lamma.jpg"
                     alt={t('caseStudy2.imageAlt')}
                     fill
                     className="object-cover"
@@ -158,7 +158,7 @@ export default function Home() {
               <div className="grid gap-8 md:grid-cols-2 items-center">
                 <div className="relative h-[300px] rounded-lg overflow-hidden border border-blue-900/30">
                   <Image
-                    src="/images/800G-AI Superhighway.jpg"
+                    src="/fiberlink/images/800G-AI Superhighway.jpg"
                     alt={t('caseStudy3.imageAlt')}
                     fill
                     className="object-cover"

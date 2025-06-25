@@ -61,7 +61,7 @@ export default function AI800GSuperhighwayPage() {
             <div className="relative">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-purple-900/20">
                 <Image 
-                  src="/images/800G-AI Superhighway.jpg" 
+                  src="/fiberlink/images/800G-AI Superhighway.jpg" 
                   alt={t('caseStudy3.imageAlt')} 
                   fill 
                   className="object-cover" 

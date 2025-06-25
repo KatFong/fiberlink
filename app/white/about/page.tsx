@@ -32,7 +32,7 @@ export default function WhiteAboutPage() {
           <div className="relative">
             <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center">
               <Image 
-                src="/images/aboutUs.jpeg" 
+                src="/fiberlink/images/aboutUs.jpeg" 
                 alt="Fiberlink 團隊" 
                 width={400} 
                 height={300}
@@ -120,7 +120,7 @@ export default function WhiteAboutPage() {
             </p>
             <div className="flex justify-center">
               <Image 
-                src="/images/HKT_Logo.svg" 
+                src="/fiberlink/images/HKT_Logo.svg" 
                 alt="HKT Group Member" 
                 width={300} 
                 height={100}

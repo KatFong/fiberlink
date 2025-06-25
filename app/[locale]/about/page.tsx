@@ -37,7 +37,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-900/20">
-                <Image src="/images/aboutUs.jpeg" alt="FiberLink corporate network infrastructure" fill className="object-cover" />
+                <Image src="/fiberlink/images/aboutUs.jpeg" alt="FiberLink corporate network infrastructure" fill className="object-cover" />
               </div>
               <div className="absolute -top-6 -left-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>

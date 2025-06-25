@@ -61,7 +61,7 @@ export default function SubmarineCablePage() {
             <div className="relative">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-900/20">
                 <Image 
-                  src="/images/corporate-network.png" 
+                  src="/fiberlink/images/corporate-network.png" 
                   alt={t('caseStudy1.imageAlt')} 
                   fill 
                   className="object-cover" 
