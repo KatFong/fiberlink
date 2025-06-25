@@ -13,32 +13,16 @@ export default function WhiteHomePage() {
       <HeroBannerWhite />
 
       {/* Our Story Section */}
-      <section className="py-20 bg-gradient-to-b from-white to-blue-50/50">
+      <section className="py-16 bg-gradient-to-b from-white to-blue-50/50">
         <div className="container px-4 md:px-6">
-          <div className="mb-12 text-center">
+          <div className="text-center max-w-3xl mx-auto">
             <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">我們的故事</h2>
-            <div className="mx-auto mb-4 h-1 w-24 bg-blue-500"></div>
-            <p className="mx-auto max-w-2xl text-gray-600">了解 FiberLink 如何成為香港光纖網絡基建的領導者</p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div className="bg-gray-50/80 backdrop-blur-sm p-8 rounded-lg border border-blue-200/30">
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">專業工程公司</h3>
+            <div className="mx-auto mb-6 h-1 w-24 bg-blue-500"></div>
+            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-lg border border-blue-200/30 shadow-lg">
               <p className="text-sm text-blue-600 mb-4 font-medium">HKT 集團成員企業</p>
-              <p className="text-gray-600 mb-6">作為專業的工程技術公司，我們專注於為香港企業提供高品質的光纖網絡基建服務，支持企業數字化轉型和業務增長。</p>
-            </div>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-white/70 backdrop-blur-sm rounded-lg border border-blue-100 shadow-md">
-              <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">1,000+</div>
-              <div className="text-gray-600 text-sm">服務客戶</div>
-            </div>
-            <div className="text-center p-6 bg-white/70 backdrop-blur-sm rounded-lg border border-blue-100 shadow-md">
-              <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">99.99%</div>
-              <div className="text-gray-600 text-sm">網絡可靠性</div>
-            </div>
-            <div className="text-center p-6 bg-white/70 backdrop-blur-sm rounded-lg border border-blue-100 shadow-md">
-              <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">24/7</div>
-              <div className="text-gray-600 text-sm">技術支援</div>
+              <p className="text-gray-600 text-lg leading-relaxed">
+                作為專業的工程技術公司，我們專注於為香港企業提供高品質的光纖網絡基建服務，支持企業數字化轉型和業務增長。
+              </p>
             </div>
           </div>
         </div>
