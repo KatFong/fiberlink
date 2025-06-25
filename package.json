@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export",
+    "deploy:github": "npm run export && touch out/.nojekyll && cp public/login.html out/ && cp public/auth-check.js out/",
+    "deploy:vercel": "vercel --prod"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

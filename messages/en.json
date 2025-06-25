@@ -7,6 +7,23 @@
     "contact": "Contact",
     "ourStory": "Our Story",
     "ourStoryDesc": "Providing comprehensive fiber optic network solutions to meet the needs of all types of businesses",
+    "ourStoryTitle": "From HKT Engineering to Independent Innovation",
+    "ourStorySubtitle": "A New Chapter in Hong Kong Digital Infrastructure",
+    "ourStoryContent": {
+      "paragraph1": "FiberLink was originally the engineering department of HKT, Hong Kong leading telecommunications provider. In June 2024, a significant milestone was reached when HKT indirect wholly-owned subsidiary entered into a sale and purchase agreement with investors, marking the beginning of FiberLink journey as an independent company.",
+      "paragraph2": "The transaction, valued at US$870 million, represents a strategic move to unlock the value of HKT extensive passive network business by introducing long-term investment partners. This partnership enables the sharing of future capital expenditures related to expanding network infrastructure to support business growth.",
+      "paragraph3": "As Hong Kong new residential developments are planned, enterprise digital transformation accelerates, and Greater Bay Area integration deepens, FiberLink will work alongside HKT and investors to expand its passive infrastructure business, supporting new service launches and expansion into new regions.",
+      "paragraph4": "This strategic move allows HKT to strengthen its resources to enhance and broaden its consumer services, particularly in supporting digital lifestyle applications, while providing innovative and advanced technological solutions to enterprise customers."
+    },
+    "ourStoryShort": "FiberLink originated as the engineering department of HKT. In June 2024, we became an independent company through a major investment, unlocking new opportunities to expand Hong Kong's digital infrastructure. Today, FiberLink partners with HKT and leading investors to deliver advanced, reliable fiber network solutions for the city's future.",
+    "ourStoryStats": {
+      "transactionValue": "US$870M",
+      "transactionValueLabel": "Transaction Value",
+      "networkCoverage": "99.9%",
+      "networkCoverageLabel": "Network Coverage",
+      "serviceReliability": "24/7",
+      "serviceReliabilityLabel": "Service Reliability"
+    },
     "learnMore": "Learn More",
     "successStories": "Success Stories",
     "successStoriesDesc": "See how our fiber optic solutions have transformed businesses across various industries",
@@ -28,8 +45,8 @@
     "caseStudy1": {
       "title": "Submarine Cable",
       "date": "December 2019",
-      "heading": "World's First Ultra-High Core Count Digital Submarine Cable",
-      "description": "We have successfully deployed the Ultra Express Link (UEL), the world's first submarine cable equipped with 2,016 optical fiber cores, directly connecting the data centers in Tseung Kwan O and Chai Wan.",
+      "heading": "World First Ultra-High Core Count Digital Submarine Cable",
+      "description": "We have successfully deployed the Ultra Express Link (UEL), the world first submarine cable equipped with 2,016 optical fiber cores, directly connecting the data centers in Tseung Kwan O and Chai Wan.",
       "imageAlt": "IT professional monitoring network performance in a modern data center",
       "points": {
         "1": "Ultra-high capacity with 2,016 optical fiber cores",
@@ -53,7 +70,7 @@
       "title": "800G AI Superhighway",
       "date": "April 2024",
       "heading": "800G AI Superhighway",
-      "description": "FiberLink's 800G AI Superhighway service is purpose-built for AI, high-performance computing, cloud, and data center interconnection. It meets the high-bandwidth demands of the new era, enabling data flow and computing power convergence in the age of AI and supercomputing.",
+      "description": "FiberLink 800G AI Superhighway service is purpose-built for AI, high-performance computing, cloud, and data center interconnection. It meets the high-bandwidth demands of the new era, enabling data flow and computing power convergence in the age of AI and supercomputing.",
       "imageAlt": "Modern data center infrastructure",
       "points": {
         "1": "800G ultra-high-speed optical fibre backbone",
@@ -62,7 +79,7 @@
       }
     },
     "testimonial1": {
-      "quote": "FiberLink's enterprise network solution transformed our operations. The speed and reliability have been exceptional, and their support team is always responsive.",
+      "quote": "FiberLink enterprise network solution transformed our operations. The speed and reliability have been exceptional, and their support team is always responsive.",
       "author": "Sarah Chen",
       "position": "CTO",
       "company": "AsiaPac Banking Ltd",
@@ -76,23 +93,359 @@
       "image": "/placeholder.svg?height=100&width=100"
     },
     "testimonial3": {
-      "quote": "The reliability of our network is critical for patient care. Since implementing FiberLink's solution, we've had zero downtime and significantly improved our digital healthcare services.",
+      "quote": "The reliability of our network is critical for patient care. Since implementing FiberLink solution, we had zero downtime and significantly improved our digital healthcare services.",
       "author": "Jennifer Lau",
       "position": "Head of IT Infrastructure",
       "company": "Central Medical Center",
       "image": "/placeholder.svg?height=100&width=100"
+    },
+    "services": "Services",
+    "aboutPage": {
+      "missionVision": "Mission & Vision",
+      "missionVisionDesc": "Driving Hong Kong's digital infrastructure development and providing the most reliable fiber optic network solutions for enterprises",
+      "ourMission": "Our Mission",
+      "missionText": "To provide Hong Kong enterprises with the most advanced and reliable fiber optic network infrastructure, supporting digital transformation and business growth, becoming Hong Kong's leading enterprise fiber optic network service provider.",
+      "ourVision": "Our Vision",
+      "visionText": "To become the most trusted enterprise fiber optic network solution partner in the Greater Bay Area and Asia-Pacific region, driving digital economic development and connecting a better future.",
+      "coreValues": "Core Values",
+      "excellence": "Excellence",
+      "excellenceText": "Maintaining the highest standards of network quality and service levels to ensure stable operation and sustainable development of customer businesses.",
+      "customerFirst": "Customer First",
+      "customerFirstText": "Centering on customer needs, providing personalized solutions and professional technical support services.",
+      "innovation": "Innovation Driven",
+      "innovationText": "Continuously investing in technological innovation and R&D, leading industry development and creating greater value for customers.",
+      "readyToStart": "Ready to Get Started?",
+      "readyToStartDesc": "Let us provide the most suitable fiber optic network solution for your enterprise",
+      "contactUs": "Contact Us",
+      "learnMoreServices": "Learn More About Services",
+      "ourTechnical": "Our Technology"
+    },
+    "ourTechnical": "Our Technology",
+    "technicalCards": {
+      "fiberBackboneTitle": "100G/400G/800G",
+      "fiberBackboneDesc": "Supporting HKT's High-Speed Network",
+      "dedicatedLineTitle": "Enterprise Dedicated Line Deployment",
+      "dedicatedLineDesc": "Ensuring SLA Compliance",
+      "backhaulTitle": "Hollow Fiber",
+      "backhaulDesc": "Optimized fibre backhaul for 5G, ensuring ultra-low latency, high reliability, and seamless coverage expansion for next-generation mobile networks.",
+      "cta": "Explore Full Technical Capabilities",
+      "hollowDesc": "Hollow fiber, as the name suggests, is a filtration membrane formed into hollow tubes. The filtrate flows through the center of the hollow fiber, and large and small molecules are separated using the principle of Tangential Flow Filtration (TFF)."
+    },
+    "fibreTechnologies": {
+      "title": "Fibre Technologies",
+      "desc": "Leading-edge fibre technologies supporting Hong Kong's digital infrastructure",
+      "100g": "100G",
+      "400g": "400G", 
+      "800g": "800G",
+      "hollow": "Hollow Fiber",
+      "100g400g800gDesc": "Ultra-high capacity optical transmission supporting massive data, cloud, and AI workloads for enterprises and carriers. Enables future-proof backbone and metro networks.",
+      "800gDetails": {
+        "title": "800G AI Superhighway",
+        "subtitle": "Asia's First 800Gbps Wide Area Network for AI and Supercomputing",
+        "description": "FiberLink's 800Gbps AI Superhighway is a dedicated, fibre-based private network that provides super high-speed, ultra-low latency, reliable and highly secure network connections. It is designed to meet the increasing demand from businesses and institutions for advanced supercomputing capabilities driven by AI, machine learning, cloud services, edge computing and other data-intensive applications.",
+        "features": {
+          "robustProtection": "Robust Protection: Private circuit ensuring robust security for sensitive data transfers",
+          "enhancedProductivity": "Enhanced Productivity: Unmatched speed enabling real-time data processing",
+          "scalability": "Scalability: Easy bandwidth upgrades and rapid deployment of new AI services",
+          "highReliability": "High Reliability: Superior reliability with robust redundancy and failover mechanisms",
+          "costEffectiveness": "Cost Effectiveness: Consolidating multiple connections into single ultra-speed link"
+        },
+        "applications": "Enables rapid transfer of large datasets for LLM-based AI model training and supports AI inference applications utilising high-performance computing resources, such as genomics and scientific simulations, and AI agent assist and virtual agents in contact centres."
+      }
+    },
+    "case800g": "800G AI Superhighway",
+    "caseLamma": "Lamma Island Fiber Network Coverage Project",
+    "caseStudiesPage": {
+      "successStories": "Success Stories",
+      "caseStudies": "Case Studies",
+      "heroDescription": "Discover how FiberLink's innovative fiber optic solutions have transformed businesses and communities across Hong Kong and beyond.",
+      "awardWinningProjects": "Engineering Projects",
+      "provenResults": "Technical Implementation",
+      "customerSuccess": "Project Delivery",
+      "featuredProjects": "Featured Projects",
+      "featuredProjectsDesc": "Explore our most impactful projects that showcase the power of advanced fiber optic infrastructure.",
+      "readFullCaseStudy": "Read Full Case Study",
+      "infrastructure": "Infrastructure",
+      "communityNetwork": "Community Network",
+      "aiInfrastructure": "AI Infrastructure",
+      "fiberCores": "Fiber Cores",
+      "distance": "Distance",
+      "latency": "Latency",
+      "villagesCovered": "Villages Covered",
+      "maxSpeed": "Max Speed",
+      "serviceType": "Service Type",
+      "speed": "Speed",
+      "coverage": "Coverage",
+      "purpose": "Purpose",
+      "regionWide": "Region-wide",
+      "aiHpc": "AI/HPC",
+      "symmetric": "Symmetric",
+      "minRead": "min read"
+    },
+    "servicesPage": {
+      "professionalServices": "Professional Services",
+      "fiberOpticServices": "Fiber Optic Services",
+      "heroDescription": "Comprehensive fiber optic network services from design and installation to ongoing support and management. Our expert team delivers enterprise-grade solutions that power your digital transformation.",
+      "enterpriseGrade": "Enterprise Grade",
+      "support247": "24/7 Support",
+      "slaGuaranteed": "SLA Guaranteed",
+      "ourServices": "Our Services",
+      "servicesDescription": "From initial consultation to ongoing support, we provide end-to-end fiber optic solutions for your business needs.",
+      "keyFeatures": "Key Features:",
+      "learnMore": "Learn More",
+      "infrastructure": "Infrastructure",
+      "enterpriseFiberSolutions": "Enterprise Fiber Solutions",
+      "support": "Support",
+      "ctaTitle": "Ready to Experience Our Professional Services?",
+      "ctaDescription": "See how we provide innovative fiber solutions for our clients and learn about real success stories.",
+      "ctaButton": "Learn About Our Success Stories",
+      "features": {
+        "siteSurvey": "Site survey and network design",
+        "fiberInstallation": "High-speed fiber cable installation",
+        "equipmentConfig": "Equipment configuration and testing",
+        "qualityAssurance": "Quality assurance and certification",
+        "networkArchitecture": "Custom network architecture design",
+        "highBandwidth": "High-bandwidth connectivity solutions",
+        "redundancy": "Redundancy and failover protection",
+        "monitoring": "Performance monitoring and optimization",
+        "networkMonitoring": "24/7 network monitoring",
+        "incidentResponse": "Rapid incident response",
+        "maintenance": "Preventive maintenance",
+        "diagnostics": "Remote diagnostics and troubleshooting"
+      },
+      "supportOptions": {
+        "emergency": "Emergency Support",
+        "emergencyDesc": "24/7 emergency response for critical network issues",
+        "consultation": "Technical Consultation",
+        "consultationDesc": "Expert advice for network planning and optimization",
+        "onsite": "On-site Service",
+        "onsiteDesc": "Professional technicians for installation and maintenance"
+      }
+    },
+    "fiberInstallationPage": {
+      "backToServices": "Back to Services",
+      "certifiedTechnicians": "Certified Technicians",
+      "rapidDeployment": "Rapid Deployment",
+      "qualityGuaranteed": "Quality Guaranteed",
+      "keyFeatures": "Key Features",
+      "featuresDescription": "Comprehensive fiber installation services designed to meet enterprise requirements.",
+      "siteSurveyTitle": "Site Survey and Network Design",
+      "siteSurveyDesc": "Comprehensive site assessment and custom network architecture planning tailored to your specific requirements.",
+      "fiberInstallationTitle": "High-speed Fiber Cable Installation",
+      "fiberInstallationDesc": "Professional installation of cutting-edge fiber optic cables with industry-leading speed and reliability.",
+      "equipmentConfigTitle": "Equipment Configuration and Testing",
+      "equipmentConfigDesc": "Complete setup and rigorous testing of all network equipment to ensure optimal performance.",
+      "qualityAssuranceTitle": "Quality Assurance and Certification",
+      "qualityAssuranceDesc": "Thorough quality checks and official certification to guarantee enterprise-grade standards.",
+      "installationProcess": "Installation Process",
+      "processDescription": "Our proven four-step process ensures seamless fiber network installation.",
+      "step1Title": "Initial Consultation",
+      "step1Desc": "We assess your current infrastructure and business requirements to design the optimal fiber network solution.",
+      "step2Title": "Site Survey",
+      "step2Desc": "Our technical team conducts a comprehensive site survey to plan the most efficient installation route.",
+      "step3Title": "Installation",
+      "step3Desc": "Professional installation of fiber optic cables and equipment with minimal disruption to your operations.",
+      "step4Title": "Testing & Certification",
+      "step4Desc": "Rigorous testing and certification to ensure your network meets all performance and quality standards.",
+      "benefitsTitle": "Why Choose Our Installation Service",
+      "benefits": {
+        "minimalDowntime": "Minimal downtime during installation",
+        "futureProof": "Future-proof infrastructure",
+        "projectManagement": "Professional project management",
+        "support247": "24/7 installation support",
+        "documentation": "Comprehensive documentation",
+        "optimization": "Post-installation optimization"
+      }
+    },
+      "networkSolutionsPage": {
+    "backToServices": "Back to Services",
+    "category": "Enterprise Fiber Solutions",
+    "heroDescription": "From small businesses to large enterprises, we deliver customized network solutions that scale with your growth. Advanced enterprise network solutions designed for demanding business environments.",
+    "badges": {
+      "customDesign": "Custom Design",
+      "enterpriseSecurity": "Enterprise Security",
+      "highPerformance": "High Performance"
+    },
+    "keyFeaturesTitle": "Key Features",
+    "keyFeaturesSubtitle": "Advanced enterprise network solutions designed for demanding business environments.",
+    "features": {
+      "customArchitecture": {
+        "title": "Custom Network Architecture Design",
+        "description": "Tailored network designs that align with your business objectives and growth plans, ensuring optimal performance."
+      },
+      "highBandwidth": {
+        "title": "High-bandwidth Connectivity Solutions",
+        "description": "Ultra-high-speed connections supporting demanding applications and future technology requirements."
+      },
+      "redundancy": {
+        "title": "Redundancy and Failover Protection",
+        "description": "Multiple backup systems and automatic failover mechanisms to ensure uninterrupted business operations."
+      },
+      "monitoring": {
+        "title": "Performance Monitoring and Optimization",
+        "description": "Continuous monitoring and proactive optimization to maintain peak network performance at all times."
+      }
+    },
+    "solutionsTitle": "Network Solutions",
+    "solutionsSubtitle": "Comprehensive network solutions for various business requirements and scales.",
+    "solutions": {
+      "enterprise": {
+        "title": "Enterprise Campus Networks",
+        "description": "Comprehensive campus-wide fiber networks for large organizations",
+        "specs": {
+          "speed": "Up to 10Gbps",
+          "connectivity": "Multi-building connectivity",
+          "architecture": "Scalable architecture"
+        }
+      },
+      "dataCenter": {
+        "title": "Data Center Interconnect",
+        "description": "High-speed connections between data centers and cloud facilities",
+        "specs": {
+          "capacity": "100G/400G/800G",
+          "latency": "Ultra-low latency",
+          "uptime": "99.99% uptime SLA"
+        }
+      },
+      "metro": {
+        "title": "Metropolitan Area Networks",
+        "description": "Wide-area connectivity across cities and regions",
+        "specs": {
+          "coverage": "Region-wide coverage",
+          "reliability": "Carrier-grade reliability",
+          "bandwidth": "Flexible bandwidth"
+        }
+      }
+    },
+    "benefitsTitle": "Why Choose Our Network Solutions",
+    "benefits": {
+      "scalable": "Scalable network infrastructure",
+      "security": "Enhanced security protocols",
+      "continuity": "Improved business continuity",
+      "costEffective": "Cost-effective operations",
+      "futureProof": "Future-proof technology",
+      "monitoring": "24/7 network monitoring",
+      "deployment": "Rapid deployment capabilities",
+      "support": "Expert technical support"
     }
   },
-  "header": {
-    "fibralink": "Fibralink",
-    "home": "Home",
-    "ourStory": "Our Story",
+    "technicalSupportPage": {
+      "backToServices": "Back to Services",
+      "availability247": "24/7 Availability",
+      "expertTeam": "Expert Team",
+      "slaGuaranteed": "SLA Guaranteed",
+      "networkUptime": "Network Uptime",
+      "averageResponse": "Average Response",
+      "monitoring": "Monitoring",
+      "firstCallResolution": "First Call Resolution",
+      "keyFeatures": "Key Features",
+      "featuresDescription": "Comprehensive technical support services to keep your network running smoothly.",
+      "networkMonitoringTitle": "24/7 Network Monitoring",
+      "networkMonitoringDesc": "Continuous monitoring of your network infrastructure to detect and prevent issues before they impact your business.",
+      "incidentResponseTitle": "Rapid Incident Response",
+      "incidentResponseDesc": "Fast response times for critical network issues with escalation procedures to ensure minimal downtime.",
+      "maintenanceTitle": "Preventive Maintenance",
+      "maintenanceDesc": "Scheduled maintenance and updates to keep your network running at optimal performance levels.",
+      "diagnosticsTitle": "Remote Diagnostics and Troubleshooting",
+      "diagnosticsDesc": "Advanced remote diagnostic tools to identify and resolve network issues quickly and efficiently.",
+      "supportLevels": "Support Levels",
+      "supportLevelsDesc": "Choose the support level that best fits your business requirements.",
+      "emergencyTitle": "Emergency Support",
+      "emergencyDesc": "24/7 emergency response for critical network issues",
+      "consultationTitle": "Technical Consultation",
+      "consultationDesc": "Expert advice for network planning and optimization",
+      "onsiteTitle": "On-site Service",
+      "onsiteDesc": "Professional technicians for installation and maintenance",
+      "benefitsTitle": "Why Choose Our Technical Support",
+      "benefits": {
+        "maxUptime": "Maximum network uptime",
+        "proactiveResolution": "Proactive issue resolution",
+        "expertAssistance": "Expert technical assistance",
+        "comprehensiveCoverage": "Comprehensive service coverage",
+        "costEffective": "Cost-effective maintenance",
+        "optimization": "Performance optimization",
+        "securityMonitoring": "Security monitoring",
+        "reporting": "Documentation and reporting"
+      },
+      "supportFeatures": {
+        "criticalPriority": "Critical issue priority",
+        "emergencyHotline": "Emergency hotline",
+        "immediateEscalation": "Immediate escalation",
+        "onsiteDispatch": "On-site dispatch",
+        "expertConsultation": "Expert consultation",
+        "performanceOptimization": "Performance optimization",
+        "planningAssistance": "Planning assistance",
+        "bestPractice": "Best practice guidance",
+        "certifiedTechnicians": "Certified technicians",
+        "equipmentReplacement": "Equipment replacement",
+        "installationSupport": "Installation support",
+        "maintenanceServices": "Maintenance services"
+      },
+      "responseTime": {
+        "hour1": "< 1 hour",
+        "hours4": "< 4 hours",
+        "sameDay": "Same day",
+        "min15": "< 15min",
+        "availability247365": "24/7/365",
+        "businessHours": "Business hours",
+        "scheduled": "Scheduled"
+      }
+    }
+  },
+  "contact": {
+    "contactInformation": "Contact Information",
+    "contactUs": "Contact Us", 
+    "getInTouch": "Get in touch with our expert team for all your fiber optic network needs.",
+    "support24x7": "Phone Support",
+    "support24x7Desc": "Contact us by phone for professional technical assistance and consultation services",
+    "emailSupport": "Email",
+    "emailSupportDesc": "Contact us via email and we'll respond to your inquiries promptly", 
+    "emergencyResponse": "Emergency Response",
+    "emergencyResponseDesc": "Priority emergency support for critical network issues",
+    "officeHours": "Office Hours",
+    "officeHoursDesc": "Our business operating hours for regular inquiries",
+    "officeHoursTime": "Monday - Friday: 9:00 AM - 6:00 PM (Except Public Holidays)",
+    "ourLocation": "Our Location",
+    "visitUs": "Visit us at our Hong Kong headquarters in the heart of Quarry Bay."
+  },
+  "resources": {
+    "technicalResources": "Technical Resources",
+    "heroTitle": "Resources & Documentation",
+    "heroDesc": "Comprehensive technical resources, whitepapers, and documentation to help you understand and implement our fiber optic solutions.",
+    "documentationResources": "Documentation & Resources",
+    "documentationDesc": "Access comprehensive documentation, whitepapers, and technical guides for our fiber optic solutions.",
+    "whitepapers": "Whitepapers",
     "caseStudies": "Case Studies",
+    "faq": "FAQ",
+    "ctaTitle": "Need Custom Documentation?",
+    "ctaDesc": "Our technical team can create customized documentation and implementation guides for your specific requirements."
+  },
+  "technicalCapabilities": {
+    "heroDesc": "Explore our advanced technical capabilities that empower Hong Kong's digital infrastructure and enterprise connectivity.",
+    "advantages": "Technical Advantages",
+    "highReliability": "High Reliability: 99.99% network uptime and robust redundancy.",
+    "flexibleScalability": "Flexible Scalability: Rapid expansion to meet business growth.",
+    "smartOandM": "Smart O&M: Proactive monitoring and intelligent fault management.",
+    "security": "Enterprise-Grade Security: End-to-end data protection.",
+    "lowLatency": "Low Latency: Optimized for real-time applications and 5G.",
+    "professionalSupport": "Professional Support: 24/7 expert technical assistance.",
+    "ctaTitle": "Ready to Upgrade Your Network?",
+    "ctaDesc": "Contact us to discuss your technical requirements or request a detailed solution proposal.",
+    "ctaContact": "Contact Us"
+  },
+  "header": {
+    "Fiberlink": "Fiberlink",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "successStories": "Success Stories",
+    "ourSuccessStories": "Our Success Stories",
     "resources": "Resources",
+    "caseStudies": "Case Studies",
     "contact": "Contact",
-    "support": "Support",
     "getAQuote": "Get a Quote",
-    "clientLogin": "Client Login"
+    "clientLogin": "Client Login",
+    "whiteVersion": "Simple Version"
   },
   "hero": {
     "professionalFiberOpticNetworkSolutions": "Professional Fiber Optic Network Solutions",
@@ -101,8 +454,34 @@
     "ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly": "Our expert team provides high-speed, stable, and secure fiber optic infrastructure to ensure your business runs smoothly",
     "getACustomSolution": "See our Success Stories",
     "contactUs": "Explore our Technologies",
+    "serviceCoverage": "Our Service Coverage",
     "businessClients": "Business Clients",
     "networkAvailability": "Network Availability",
     "247TechnicalSupport": "24/7 Technical Support"
+  },
+  "footer": {
+    "Fiberlink": "Fiberlink",
+    "desc": "Your trusted partner in fiber optic infrastructure solutions.",
+    "services": "Services",
+    "professionalFiberInstallation": "Professional Fiber Installation",
+    "enterpriseNetworkSolutions": "Enterprise Network Solutions",
+    "technicalSupport": "Technical Support",
+    "networkManagementServices": "Network Management Services",
+    "cloudConnectivitySolutions": "Cloud Connectivity Solutions",
+    "ourStory": "Our Story",
+    "case800g": "800G AI Superhighway",
+    "caseLamma": "Lamma Island Fiber Network Coverage Project",
+    "resources": "Resources",
+    "caseStudies": "Case Studies",
+    "technicalWhitepapers": "Technical Whitepapers",
+    "faq": "FAQ",
+    "enterpriseNetworkBlog": "Enterprise Network Blog",
+    "companyInfo": "Company Information",
+    "companyDescription": "A subsidiary of PCCW Group, specializing in advanced fiber optic solutions.",
+    "address": "Cambridge House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "sitemap": "Sitemap"
   }
-} 
+}

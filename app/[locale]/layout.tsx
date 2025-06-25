@@ -1,9 +1,5 @@
-import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export function generateStaticParams() {
   return [{ locale: 'en' }, { locale: 'zh-Hant' }, { locale: 'zh-Hans' }];
@@ -14,9 +10,9 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const locale = params.locale;
+  const { locale } = await params;
 
   let messages;
   try {
@@ -26,12 +22,10 @@ export default async function LocaleLayout({
   }
 
   return (
-    <body className={inter.className}>
-      <NextIntlClientProvider locale={locale} messages={messages}>
-        <div className="p-4">
-          {children}
-        </div>
-      </NextIntlClientProvider>
-    </body>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <div className="p-4">
+        {children}
+      </div>
+    </NextIntlClientProvider>
   );
 } 

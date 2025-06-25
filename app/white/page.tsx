@@ -1,24 +1,206 @@
-import Image from "next/image"
+"use client"
 
-export default function WhiteSimplePage() {
+import React from "react";
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight, CheckCircle2, Cable, Zap } from "lucide-react"
+import HeroBannerWhite from "@/components/hero-banner-white"
+import { Button } from "@/components/ui/button"
+
+export default function WhiteHomePage() {
   return (
-    <main style={{ minHeight: "100vh", background: "#fff", color: "#222", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ maxWidth: 400, width: "100%", padding: 24, boxShadow: "0 2px 16px #eee", borderRadius: 16, background: "#fff", textAlign: "center" }}>
-        <Image src="/logo.svg" alt="Fibralink Logo" width={80} height={80} style={{ margin: "0 auto 16px auto" }} />
-        <h1 style={{ fontSize: 28, fontWeight: 700, marginBottom: 12 }}>Fibralink</h1>
-        <p style={{ fontSize: 16, marginBottom: 24 }}>
-          專業企業光纖服務，為各類型企業提供高速、穩定、安全的網絡基建。
-        </p>
-        <div style={{ fontSize: 15, marginBottom: 8 }}>
-          <b>電話：</b>2123 4567
+    <main className="min-h-screen bg-white">
+      <HeroBannerWhite />
+
+      {/* Our Story Section */}
+      <section className="py-20 bg-gradient-to-b from-white to-blue-50/50">
+        <div className="container px-4 md:px-6">
+          <div className="mb-12 text-center">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">我們的故事</h2>
+            <div className="mx-auto mb-4 h-1 w-24 bg-blue-500"></div>
+            <p className="mx-auto max-w-2xl text-gray-600">了解 FiberLink 如何成為香港光纖網絡基建的領導者</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="relative">
+              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-200/50">
+                <Image src="/images/aboutUs.jpeg" alt="FiberLink about us and our story" fill className="object-cover" />
+              </div>
+              <div className="absolute -top-6 -left-6 w-32 h-32 border border-blue-200/60 rounded-lg -z-10"></div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-blue-200/60 rounded-lg -z-10"></div>
+            </div>
+            <div className="bg-gray-50/80 backdrop-blur-sm p-8 rounded-lg border border-blue-200/30">
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">專業工程公司</h3>
+              <p className="text-sm text-blue-600 mb-4 font-medium">PCCW 集團成員企業</p>
+              <p className="text-gray-600 mb-6">作為專業的工程技術公司，我們專注於為香港企業提供高品質的光纖網絡基建服務，支持企業數字化轉型和業務增長。</p>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-white/70 backdrop-blur-sm rounded-lg border border-blue-100 shadow-md">
+              <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">1,000+</div>
+              <div className="text-gray-600 text-sm">服務客戶</div>
+            </div>
+            <div className="text-center p-6 bg-white/70 backdrop-blur-sm rounded-lg border border-blue-100 shadow-md">
+              <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">99.99%</div>
+              <div className="text-gray-600 text-sm">網絡可靠性</div>
+            </div>
+            <div className="text-center p-6 bg-white/70 backdrop-blur-sm rounded-lg border border-blue-100 shadow-md">
+              <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">24/7</div>
+              <div className="text-gray-600 text-sm">技術支援</div>
+            </div>
+          </div>
         </div>
-        <div style={{ fontSize: 15, marginBottom: 8 }}>
-          <b>Email：</b>info@fibralink.com
+      </section>
+
+      {/* Featured Projects Section */}
+      <section className="py-20 bg-white">
+        <div className="container px-4 md:px-6">
+          <div className="mb-12 text-center">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">主要工程項目</h2>
+            <div className="mx-auto mb-4 h-1 w-24 bg-blue-500"></div>
+            <p className="mx-auto max-w-2xl text-gray-600">
+              探索我們在光纖網絡基建領域的專業工程項目和技術實施案例
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {/* Project 1 */}
+            <div className="bg-white rounded-lg border border-blue-200/60 shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-48">
+                <Image
+                  src="/images/corporate-network.png"
+                  alt="企業網絡解決方案"
+                  fill
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-6">
+                <div className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600 border border-blue-200 mb-3">
+                  企業網絡
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">企業園區光纖網絡</h3>
+                <p className="text-gray-600 mb-4">為大型企業提供完整的園區級光纖網絡基建，確保高速穩定的企業內部連接。</p>
+                <ul className="space-y-1 mb-4">
+                  <li className="flex items-center text-sm text-gray-600">
+                    <CheckCircle2 className="mr-2 h-4 w-4 text-blue-500 flex-shrink-0" />
+                    高速光纖骨幹網絡建設
+                  </li>
+                  <li className="flex items-center text-sm text-gray-600">
+                    <CheckCircle2 className="mr-2 h-4 w-4 text-blue-500 flex-shrink-0" />
+                    多樓宇間連接方案
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Project 2 */}
+            <div className="bg-white rounded-lg border border-blue-200/60 shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-48">
+                <Image
+                  src="/images/lamma.jpg"
+                  alt="南丫島光纖網絡覆蓋項目"
+                  fill
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-6">
+                <div className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600 border border-blue-200 mb-3">
+                  基建項目
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">南丫島光纖網絡覆蓋</h3>
+                <p className="text-gray-600 mb-4">為南丫島提供全面的光纖網絡覆蓋，克服地理挑戰，實現高品質網絡連接。</p>
+                <ul className="space-y-1 mb-4">
+                  <li className="flex items-center text-sm text-gray-600">
+                    <CheckCircle2 className="mr-2 h-4 w-4 text-blue-500 flex-shrink-0" />
+                    海底光纜鋪設工程
+                  </li>
+                  <li className="flex items-center text-sm text-gray-600">
+                    <CheckCircle2 className="mr-2 h-4 w-4 text-blue-500 flex-shrink-0" />
+                    全島網絡覆蓋方案
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Project 3 */}
+            <div className="bg-white rounded-lg border border-blue-200/60 shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="relative h-48">
+                <Image
+                  src="/images/800G-AI Superhighway.jpg"
+                  alt="800G AI 超級公路"
+                  fill
+                  className="object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-6">
+                <div className="inline-block rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600 border border-blue-200 mb-3">
+                  技術創新
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">800G AI 超級公路</h3>
+                <p className="text-gray-600 mb-4">亞洲首條 800Gbps 廣域網絡，專為 AI 和超級計算應用而設計的先進技術基建。</p>
+                <ul className="space-y-1 mb-4">
+                  <li className="flex items-center text-sm text-gray-600">
+                    <CheckCircle2 className="mr-2 h-4 w-4 text-blue-500 flex-shrink-0" />
+                    800Gbps 超高速網絡
+                  </li>
+                  <li className="flex items-center text-sm text-gray-600">
+                    <CheckCircle2 className="mr-2 h-4 w-4 text-blue-500 flex-shrink-0" />
+                    AI 專用網絡優化
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link href="/white/services">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                查看更多項目 <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
         </div>
-        <div style={{ fontSize: 15 }}>
-          <b>地址：</b>39/F, Cambridge House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong
+      </section>
+
+      {/* Services content */}
+      <section className="py-20 bg-gradient-to-b from-white to-blue-50/50">
+        <div className="container px-4 md:px-6">
+          <div className="mb-12 text-center">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">核心技術</h2>
+            <p className="mx-auto max-w-2xl text-gray-600 mb-8">先進的光纖技術和創新的網絡解決方案</p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            <div className="rounded-lg border border-blue-200/60 bg-white/80 p-6 backdrop-blur-sm transition-all hover:border-blue-300/60 hover:shadow-lg hover:shadow-blue-100/50">
+              <div className="mb-4">
+                <Zap className="h-10 w-10 text-blue-600" />
+              </div>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">800G AI 超級公路</h3>
+              <p className="mb-4 text-gray-600">亞洲首條 800Gbps 廣域網絡，專為 AI 和超級計算應用而設計</p>
+              <p className="text-gray-600 text-sm mt-2">超高速數據傳輸，支持下一代 AI 和雲端應用</p>
+            </div>
+
+            <div className="rounded-lg border border-blue-200/60 bg-white/80 p-6 backdrop-blur-sm transition-all hover:border-blue-300/60 hover:shadow-lg hover:shadow-blue-100/50">
+              <div className="mb-4">
+                <Cable className="h-10 w-10 text-blue-600" />
+              </div>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">5G 光纖回程網絡</h3>
+              <p className="mb-4 text-gray-600">為 5G 網絡優化的光纖回程解決方案，確保超低延遲和高可靠性</p>
+              <p className="text-gray-600 text-sm mt-2">支持下一代移動網絡的無縫覆蓋擴展</p>
+            </div>
+          </div>
+
+          <div className="mt-12 flex justify-center">
+            <Link href="/white/services">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+                探索完整技術能力
+              </Button>
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
-  )
+  );
 } 

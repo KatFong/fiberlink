@@ -28,4 +28,25 @@ export default function LanguageSwitcher() {
       </SelectContent>
     </Select>
   );
+}
+
+// White version language switcher - redirects to main site with language
+export function WhiteLanguageSwitcher() {
+  const handleLanguageChange = (newLocale: string) => {
+    // Redirect to main site with selected language
+    window.location.href = `/${newLocale}`;
+  };
+
+  return (
+    <Select defaultValue="zh-Hant" onValueChange={handleLanguageChange}>
+      <SelectTrigger className="w-[140px] border-gray-300 text-gray-700 hover:border-gray-400 bg-white hover:bg-gray-50">
+        <SelectValue />
+      </SelectTrigger>
+      <SelectContent className="bg-white border-gray-200">
+        <SelectItem value="en" className="hover:bg-gray-50">English</SelectItem>
+        <SelectItem value="zh-Hant" className="hover:bg-gray-50">繁體中文</SelectItem>
+        <SelectItem value="zh-Hans" className="hover:bg-gray-50">简体中文</SelectItem>
+      </SelectContent>
+    </Select>
+  );
 } 

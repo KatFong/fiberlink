@@ -7,6 +7,23 @@
     "contact": "联系我们",
     "ourStory": "我们的故事",
     "ourStoryDesc": "为各类型企业提供全面的光纤网络解决方案",
+    "ourStoryTitle": "从香港电讯工程部到独立创新",
+    "ourStorySubtitle": "香港数码基建的新篇章",
+    "ourStoryContent": {
+      "paragraph1": "FiberLink 原本是香港电讯（HKT）的工程部，香港电讯是香港领先的电讯服务提供商。2024年6月，香港电讯的间接全资附属公司与投资者订立买卖协议，标志着 FiberLink 作为独立公司的新旅程开始。",
+      "paragraph2": "这项交易价值8.70亿美元，代表着通过引入长期投资合作伙伴来释放香港电讯广泛无源网络业务价值的战略举措。这种合作伙伴关系使双方能够分担与扩展网络基建以支持业务增长相关的未来资本开支。",
+      "paragraph3": "随着香港新住宅开发区的规划、企业数码化转型的加快及大湾区的融合日益紧密，FiberLink 将与香港电讯和投资者携手，扩展其无源基建业务，以支持新的服务项目推出，并拓展至新的地区。",
+      "paragraph4": "这项战略举措使香港电讯得以加强资源，以提升及扩阔其提供予消费者的服务项目，特别在辅助数码化时尚应用领域，并向企业客户提供创新及先进的技术方案。"
+    },
+    "ourStoryShort": "FiberLink 前身为香港电讯（HKT）工程部，2024年6月独立成公司，并引入战略投资者，开启香港数字基建新篇章。我们与香港电讯及合作伙伴携手，为全港提供先进可靠的光纤网络方案。",
+    "ourStoryStats": {
+      "transactionValue": "8.70亿美元",
+      "transactionValueLabel": "交易价值",
+      "networkCoverage": "99.9%",
+      "networkCoverageLabel": "网络覆盖率",
+      "serviceReliability": "24/7",
+      "serviceReliabilityLabel": "服务可靠性"
+    },
     "learnMore": "了解更多",
     "successStories": "成功案例",
     "successStoriesDesc": "看看我们的光纤解决方案如何改变各行各业的企业",
@@ -19,7 +36,7 @@
     },
     "service2": {
       "title": "企业网络解决方案",
-      "description": "全面的网络解决方案，提供高速、稳定和安全的企业网络环境"
+      "description": "全面的网络解决方案，提供高速、稳定、安全的企业网络环境"
     },
     "service3": {
       "title": "24/7 技术支持",
@@ -81,18 +98,340 @@
       "position": "IT基础设施主管",
       "company": "中央医疗中心",
       "image": "/placeholder.svg?height=100&width=100"
+    },
+    "aboutPage": {
+      "missionVision": "使命与愿景",
+      "missionVisionDesc": "推动香港数字基建发展，为企业提供最可靠的光纤网络解决方案",
+      "ourMission": "我们的使命",
+      "missionText": "为香港企业提供最先进、最可靠的光纤网络基础设施，支持数字化转型和业务增长，成为香港领先的企业光纤网络服务提供商。",
+      "ourVision": "我们的愿景",
+      "visionText": "成为大湾区及亚太地区最受信赖的企业光纤网络解决方案合作伙伴，推动数字经济发展，连接更美好的未来。",
+      "coreValues": "核心价值",
+      "excellence": "卓越品质",
+      "excellenceText": "坚持最高标准的网络品质和服务水准，确保客户业务的稳定运行和持续发展。",
+      "customerFirst": "客户至上",
+      "customerFirstText": "以客户需求为中心，提供个性化的解决方案和专业技术支持服务。",
+      "innovation": "创新驱动",
+      "innovationText": "持续投入技术创新和研发，引领行业发展，为客户创造更大的价值。",
+      "readyToStart": "准备好开始了吗？",
+      "readyToStartDesc": "让我们为您的企业提供最适合的光纤网络解决方案",
+      "contactUs": "联系我们",
+      "learnMoreServices": "了解更多服务",
+      "ourTechnical": "我们的技术"
+    },
+    "ourTechnical": "我们的技术",
+    "technicalCards": {
+      "fiberBackboneTitle": "100G/400G/800G",
+      "fiberBackboneDesc": "支援 HKT 高速網絡",
+      "dedicatedLineTitle": "企业专线部署",
+      "dedicatedLineDesc": "確保 SLA 合規",
+      "backhaulTitle": "中空光纖",
+      "backhaulDesc": "優化的光纖回程網絡，確保 5G 的超低延遲、高可靠性和無縫覆蓋擴展，支援新一代移動網絡。",
+      "cta": "探索完整技術能力",
+      "hollowDesc": "中空光纖，顧名思義，是形成中空管狀的過濾膜。濾液流過中空光纖的中心，利用切向流過濾（TFF）原理分離大小分子。"
+    },
+    "fibreTechnologies": {
+      "title": "光纖技術",
+      "desc": "領先的光纖技術支援香港數碼基礎設施",
+      "100g": "100G",
+      "400g": "400G",
+      "800g": "800G",
+      "hollow": "中空光纖",
+      "100g400g800gDesc": "超高容量光傳輸支援企業和運營商的大數據、雲端和AI工作負載。實現面向未來的骨幹和城域網絡。",
+      "800gDetails": {
+        "title": "800G AI 超級公路",
+        "subtitle": "亞洲首個800Gbps AI和超級運算廣域網絡",
+        "description": "FiberLink的800Gbps AI超級公路是專用的光纖私有網絡，提供超高速度、超低延遲、可靠且高度安全的網絡連接。專為滿足企業和機構對AI、機器學習、雲端服務、邊緣運算和其他數據密集型應用驅動的先進超級運算能力日益增長的需求而設計。",
+        "features": {
+          "robustProtection": "強大保護：私有電路確保敏感數據傳輸的強大安全性",
+          "enhancedProductivity": "提升生產力：無與倫比的速度實現實時數據處理",
+          "scalability": "可擴展性：輕鬆升級頻寬並快速部署新的AI服務",
+          "highReliability": "高可靠性：具有強大冗餘和故障轉移機制的卓越可靠性",
+          "costEffectiveness": "成本效益：將多個低速連接整合為單一超高速鏈路"
+        },
+        "applications": "實現大型語言模型AI模型訓練的大數據集快速傳輸，並支援利用高性能運算資源的AI推理應用，如基因組學和科學模擬，以及聯絡中心的AI代理協助和虛擬代理。"
+      }
+    },
+    "case800g": "800G AI 超级公路",
+    "caseLamma": "南丫岛光纤网络覆盖项目",
+    "caseStudiesPage": {
+      "successStories": "成功案例",
+      "caseStudies": "案例研究",
+      "heroDescription": "探索 FiberLink 创新的光纤解决方案如何改变香港及其他地区的企业和社区。",
+      "awardWinningProjects": "工程项目",
+      "provenResults": "技术实施",
+      "customerSuccess": "项目交付",
+      "featuredProjects": "精选项目",
+      "featuredProjectsDesc": "探索我们最具影响力的项目，展示先进光纤基础设施的强大能力。",
+      "readFullCaseStudy": "阅读完整案例研究",
+      "infrastructure": "基础设施",
+      "communityNetwork": "社区网络",
+      "aiInfrastructure": "AI 基础设施",
+      "fiberCores": "光纤芯数",
+      "distance": "距离",
+      "latency": "延迟",
+      "villagesCovered": "覆盖村落",
+      "maxSpeed": "最高速度",
+      "serviceType": "服务类型",
+      "speed": "速度",
+      "coverage": "覆盖范围",
+      "purpose": "用途",
+      "regionWide": "全地区",
+      "aiHpc": "AI/高性能计算",
+      "symmetric": "对称",
+      "minRead": "分钟阅读"
+    },
+    "servicesPage": {
+      "professionalServices": "专业服务",
+      "fiberOpticServices": "光纤网络服务",
+      "heroDescription": "从设计安装到持续支援和管理的全面光纤网络服务。我们的专家团队提供企业级解决方案，推动您的数码转型。",
+      "enterpriseGrade": "企业级",
+      "support247": "24/7 支援",
+      "slaGuaranteed": "SLA 保证",
+      "ourServices": "我们的服务",
+      "servicesDescription": "从初步咨询到持续支援，我们为您的业务需求提供端到端的光纤解决方案。",
+      "keyFeatures": "主要功能：",
+      "learnMore": "了解更多",
+      "infrastructure": "基础设施",
+      "enterpriseFiberSolutions": "企业光纤解决方案",
+      "support": "支援",
+      "ctaTitle": "准备体验我们的专业服务？",
+      "ctaDescription": "查看我们如何为客户提供创新的光纤解决方案，并了解真实的成功案例。",
+      "ctaButton": "了解我们的成功个案",
+      "features": {
+        "siteSurvey": "现场勘察和网络设计",
+        "fiberInstallation": "高速光纤电缆安装",
+        "equipmentConfig": "设备配置和测试",
+        "qualityAssurance": "质量保证和认证",
+        "networkArchitecture": "定制网络架构设计",
+        "highBandwidth": "高带宽连接解决方案",
+        "redundancy": "冗余和故障转移保护",
+        "monitoring": "性能监控和优化",
+        "networkMonitoring": "24/7 网络监控",
+        "incidentResponse": "快速事故响应",
+        "maintenance": "预防性维护",
+        "diagnostics": "远程诊断和故障排除"
+      },
+      "supportOptions": {
+        "emergency": "紧急支援",
+        "emergencyDesc": "24/7 紧急响应处理关键网络问题",
+        "consultation": "技术咨询",
+        "consultationDesc": "网络规划和优化的专家建议",
+        "onsite": "现场服务",
+        "onsiteDesc": "专业技术人员提供安装和维护服务"
+      }
+    },
+    "fiberInstallationPage": {
+      "backToServices": "返回服务",
+      "certifiedTechnicians": "认证技术人员",
+      "rapidDeployment": "快速部署",
+      "qualityGuaranteed": "质量保证",
+      "keyFeatures": "主要功能",
+      "featuresDescription": "全面的光纤安装服务，旨在满足企业要求。",
+      "siteSurveyTitle": "现场勘察和网络设计",
+      "siteSurveyDesc": "全面的现场评估和定制网络架构规划，根据您的具体要求量身定制。",
+      "fiberInstallationTitle": "高速光纤电缆安装",
+      "fiberInstallationDesc": "专业安装最先进的光纤电缆，具有业界领先的速度和可靠性。",
+      "equipmentConfigTitle": "设备配置和测试",
+      "equipmentConfigDesc": "完整的设置和严格测试所有网络设备，确保最佳性能。",
+      "qualityAssuranceTitle": "质量保证和认证",
+      "qualityAssuranceDesc": "彻底的质量检查和官方认证，保证企业级标准。",
+      "installationProcess": "安装流程",
+      "processDescription": "我们经过验证的四步流程确保无缝的光纤网络安装。",
+      "step1Title": "初步咨询",
+      "step1Desc": "我们评估您目前的基础设施和业务需求，设计最佳的光纤网络解决方案。",
+      "step2Title": "现场勘察",
+      "step2Desc": "我们的技术团队进行全面的现场勘察，规划最有效的安装路线。",
+      "step3Title": "安装",
+      "step3Desc": "专业安装光纤电缆和设备，对您的营运造成最小干扰。",
+      "step4Title": "测试和认证",
+      "step4Desc": "严格测试和认证，确保您的网络符合所有性能和质量标准。",
+      "benefitsTitle": "为什么选择我们的安装服务",
+      "benefits": {
+        "minimalDowntime": "安装期间停机时间最短",
+        "futureProof": "面向未来的基础设施",
+        "projectManagement": "专业项目管理",
+        "support247": "24/7 安装支援",
+        "documentation": "全面文档",
+        "optimization": "安装后优化"
+      }
+    },
+    "networkSolutionsPage": {
+      "backToServices": "返回服务",
+      "category": "企业光纤解决方案",
+      "heroDescription": "从小型企业到大型企业，我们提供可随您的增长而扩展的定制网络解决方案。我们的先进企业网络解决方案专为要求严格的商业环境而设计。",
+      "badges": {
+        "customDesign": "定制设计",
+        "enterpriseSecurity": "企业安全",
+        "highPerformance": "高性能"
+      },
+      "keyFeaturesTitle": "主要功能",
+      "keyFeaturesSubtitle": "为要求严苛的企业环境设计的先进企业网络解决方案。",
+      "features": {
+        "customArchitecture": {
+          "title": "定制网络架构设计",
+          "description": "与您的业务目标和增长计划保持一致的定制网络设计，确保最佳性能。"
+        },
+        "highBandwidth": {
+          "title": "高带宽连接解决方案",
+          "description": "支持要求严苛的应用程序和未来技术需求的超高速连接。"
+        },
+        "redundancy": {
+          "title": "冗余和故障转移保护",
+          "description": "多个备份系统和自动故障转移机制，确保不间断的业务运营。"
+        },
+        "monitoring": {
+          "title": "性能监控和优化",
+          "description": "持续监控和主动优化，始终保持最佳的网络性能。"
+        }
+      },
+      "solutionsTitle": "网络解决方案",
+      "solutionsSubtitle": "针对各种业务需求和规模的全面网络解决方案。",
+      "solutions": {
+        "enterprise": {
+          "title": "企业园区网络",
+          "description": "为大型组织提供全面的园区级光纤网络",
+          "specs": {
+            "speed": "高达 10Gbps",
+            "connectivity": "多栋建筑连接",
+            "architecture": "可扩展架构"
+          }
+        },
+        "dataCenter": {
+          "title": "数据中心互连",
+          "description": "数据中心和云端设施之间的高速连接",
+          "specs": {
+            "capacity": "100G/400G/800G",
+            "latency": "超低延迟",
+            "uptime": "99.99% 正常运行时间 SLA"
+          }
+        },
+        "metro": {
+          "title": "城域网络",
+          "description": "跨城市和地区的广域连接",
+          "specs": {
+            "coverage": "全地区覆盖",
+            "reliability": "电信级可靠性",
+            "bandwidth": "灵活带宽"
+          }
+        }
+      },
+      "benefitsTitle": "为什么选择我们的网络解决方案",
+      "benefits": {
+        "scalable": "可扩展的网络基础设施",
+        "security": "增强的安全协议",
+        "continuity": "改善的业务连续性",
+        "costEffective": "成本效益的运营",
+        "futureProof": "面向未来的技术",
+        "monitoring": "24/7 网络监控",
+        "deployment": "快速部署能力",
+        "support": "专家技术支持"
+      }
+    },
+    "technicalSupportPage": {
+      "backToServices": "返回服务",
+      "availability247": "24/7 可用性",
+      "expertTeam": "专家团队",
+      "slaGuaranteed": "SLA 保证",
+      "networkUptime": "网络正常运行时间",
+      "averageResponse": "平均响应时间",
+      "monitoring": "监控",
+      "firstCallResolution": "首次通话解决率",
+      "keyFeatures": "主要功能",
+      "featuresDescription": "全面的技术支援服务，确保您的网络顺畅运行。",
+      "networkMonitoringTitle": "24/7 网络监控",
+      "networkMonitoringDesc": "持续监控您的网络基础设施，在问题影响您的业务之前检测和预防问题。",
+      "incidentResponseTitle": "快速事故响应",
+      "incidentResponseDesc": "针对关键网络问题的快速响应时间，并有升级程序确保最短停机时间。",
+      "maintenanceTitle": "预防性维护",
+      "maintenanceDesc": "定期维护和更新，保持您的网络在最佳性能水平运行。",
+      "diagnosticsTitle": "远程诊断和故障排除",
+      "diagnosticsDesc": "先进的远程诊断工具，快速高效地识别和解决网络问题。",
+      "supportLevels": "支援级别",
+      "supportLevelsDesc": "选择最适合您业务需求的支援级别。",
+      "emergencyTitle": "紧急支援",
+      "emergencyDesc": "24/7 紧急响应处理关键网络问题",
+      "consultationTitle": "技术咨询",
+      "consultationDesc": "网络规划和优化的专家建议",
+      "onsiteTitle": "现场服务",
+      "onsiteDesc": "专业技术人员提供安装和维护服务",
+      "benefitsTitle": "为什么选择我们的技术支援",
+      "benefits": {
+        "maxUptime": "最大网络正常运行时间",
+        "proactiveResolution": "主动问题解决",
+        "expertAssistance": "专家技术协助",
+        "comprehensiveCoverage": "全面服务覆盖",
+        "costEffective": "成本效益的维护",
+        "optimization": "性能优化",
+        "securityMonitoring": "安全监控",
+        "reporting": "文档和报告"
+      },
+      "supportFeatures": {
+        "criticalPriority": "关键问题优先",
+        "emergencyHotline": "紧急热线",
+        "immediateEscalation": "立即升级",
+        "onsiteDispatch": "现场派遣",
+        "expertConsultation": "专家咨询",
+        "performanceOptimization": "性能优化",
+        "planningAssistance": "规划协助",
+        "bestPractice": "最佳实践指导",
+        "certifiedTechnicians": "认证技术人员",
+        "equipmentReplacement": "设备更换",
+        "installationSupport": "安装支援",
+        "maintenanceServices": "维护服务"
+      },
+      "responseTime": {
+        "hour1": "< 1 小时",
+        "hours4": "< 4 小时",
+        "sameDay": "当天",
+        "min15": "< 15分钟",
+        "availability247365": "24/7/365",
+        "businessHours": "营业时间",
+        "scheduled": "预约"
+      }
     }
   },
+  "contact": {
+    "contactInformation": "联系信息",
+    "contactUs": "联系我们",
+    "getInTouch": "联系我们的专业团队，为您提供全面的光纤网络方案。",
+    "support24x7": "电话支援",
+    "support24x7Desc": "通过电话联系我们，获得专业的技术协助和咨询服务",
+    "emailSupport": "电子邮件",
+    "emailSupportDesc": "通过电子邮件联系我们，我们会尽快回复您的查询",
+    "emergencyResponse": "紧急响应",
+    "emergencyResponseDesc": "针对关键网络问题提供优先紧急支持",
+    "officeHours": "办公时间",
+    "officeHoursDesc": "我们的营业时间，处理一般查询",
+    "officeHoursTime": "星期一至五：上午9时至下午6时（公众假期除外）",
+    "ourLocation": "我们的位置",
+    "visitUs": "欢迎莅临位于香港鲗鱼涌的总部。"
+  },
+  "resources": {
+    "technicalResources": "技术资源",
+    "heroTitle": "资源与文档",
+    "heroDesc": "全面的技术资源、白皮书和文档，帮助您了解和实施我们的光纤解决方案。",
+    "documentationResources": "文档与资源",
+    "documentationDesc": "获取全面的文档、白皮书和技术指南，了解我们的光纤解决方案。",
+    "whitepapers": "白皮书",
+    "caseStudies": "案例研究",
+    "faq": "常见问题",
+    "ctaTitle": "需要定制文档？",
+    "ctaDesc": "我们的技术团队可以为您的特定需求创建定制文档和实施指南。"
+  },
   "header": {
-    "fibralink": "Fibralink",
+    "Fiberlink": "Fiberlink",
     "home": "首页",
-    "ourStory": "我们的故事",
-    "caseStudies": "成功案例",
+    "about": "关于",
+    "services": "服务项目",
+    "successStories": "成功案例",
+    "ourSuccessStories": "我们的成功案例",
     "resources": "资源",
+    "caseStudies": "成功案例",
     "contact": "联系我们",
-    "support": "支持",
-    "getAQuote": "获取报价",
-    "clientLogin": "客户登录"
+    "getAQuote": "索取报价",
+    "clientLogin": "客户登入",
+    "whiteVersion": "简洁版"
   },
   "hero": {
     "professionalFiberOpticNetworkSolutions": "专业光纤网络方案",
@@ -101,8 +440,47 @@
     "ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly": "我们的专家团队为您提供高速、稳定、安全的光纤基础设施，确保您的业务顺利运行",
     "getACustomSolution": "成功案例一览",
     "contactUs": "探索我们的技术",
+    "serviceCoverage": "服务覆盖范围",
     "businessClients": "商业客户",
     "networkAvailability": "网络可用率",
     "247TechnicalSupport": "24/7 技术支持"
+  },
+  "footer": {
+    "Fiberlink": "光纤联接",
+    "desc": "您值得信赖的光纤基础设施解决方案合作伙伴。",
+    "services": "服务",
+    "professionalFiberInstallation": "专业光纤安装",
+    "enterpriseNetworkSolutions": "企业网络解决方案",
+    "technicalSupport": "技术支持",
+    "networkManagementServices": "网络管理服务",
+    "cloudConnectivitySolutions": "云端连接解决方案",
+    "ourStory": "我们的故事",
+    "case800g": "800G AI 超级公路",
+    "caseLamma": "南丫岛光纤网络覆盖项目",
+    "resources": "资源",
+    "caseStudies": "案例研究",
+    "technicalWhitepapers": "技术白皮书",
+    "faq": "常见问题",
+    "enterpriseNetworkBlog": "企业网络博客",
+    "companyInfo": "公司信息",
+    "companyDescription": "电讯盈科集团旗下公司，专注于先进光纤解决方案。",
+    "address": "香港鲗鱼涌英皇道979号太古坊剑桥大厦",
+    "allRightsReserved": "版权所有。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "sitemap": "网站地图"
+  },
+  "technicalCapabilities": {
+    "heroDesc": "探索我们先进的技术能力，赋能香港数字基建与企业连接。",
+    "advantages": "技术优势",
+    "highReliability": "高可靠性：99.99% 网络可用率及多重备援。",
+    "flexibleScalability": "弹性扩展：快速扩容，配合业务增长。",
+    "smartOandM": "智能运维：主动监控与智能故障管理。",
+    "security": "企业级安全：端到端数据保护。",
+    "lowLatency": "超低延迟：优化实时应用及 5G 传输。",
+    "professionalSupport": "专业支持：24/7 专家技术团队。",
+    "ctaTitle": "准备升级您的网络？",
+    "ctaDesc": "联系我们，讨论您的技术需求或索取详细方案建议。",
+    "ctaContact": "联系我们"
   }
-} 
+}

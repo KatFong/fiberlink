@@ -4,7 +4,7 @@ import React from "react";
 import { use } from "react";
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, ChevronRight, Server, Network, Database, CheckCircle2, Quote } from "lucide-react"
+import { ArrowRight, ChevronRight, Server, Network, Database, CheckCircle2, Quote, Cable, ShieldCheck, Zap } from "lucide-react"
 import HeroBanner from "@/components/hero-banner"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -24,51 +24,45 @@ export default function Home() {
       <SiteHeader />
       <HeroBanner />
 
-      {/* Services Section */}
+      {/* Our Story Section */}
       <section className="py-20 bg-gradient-to-b from-background to-blue-950/20">
         <div className="container px-4 md:px-6">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">{t('ourStory')}</h2>
             <div className="mx-auto mb-4 h-1 w-24 bg-blue-500"></div>
-            <p className="mx-auto max-w-2xl text-gray-400">
-              {t('ourStoryDesc')}
-            </p>
+            <p className="mx-auto max-w-2xl text-gray-400">{t('ourStoryDesc')}</p>
           </div>
-
-          {/* Services content */}
-          <div className="grid gap-8 md:grid-cols-3">
-            {[
-              {
-                title: t('service1.title'),
-                description: t('service1.description'),
-                icon: <Network className="h-10 w-10 text-blue-400" />,
-              },
-              {
-                title: t('service2.title'),
-                description: t('service2.description'),
-                icon: <Server className="h-10 w-10 text-blue-400" />,
-              },
-              {
-                title: t('service3.title'),
-                description: t('service3.description'),
-                icon: <Database className="h-10 w-10 text-blue-400" />,
-              },
-            ].map((service, index) => (
-              <div
-                key={index}
-                className="rounded-lg border border-blue-900/20 bg-blue-950/20 p-6 backdrop-blur-sm transition-all hover:border-blue-800/30 hover:shadow-lg hover:shadow-blue-500/5"
-              >
-                <div className="mb-4">{service.icon}</div>
-                <h3 className="mb-2 text-xl font-bold text-white">{service.title}</h3>
-                <p className="mb-4 text-gray-400">{service.description}</p>
-                <Link href={`/${locale}/services`} className="inline-flex items-center text-blue-400 hover:text-blue-300">
-                  {t('learnMore')} <ChevronRight className="ml-1 h-4 w-4" />
-                </Link>
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="relative">
+              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl shadow-blue-900/20">
+                <Image src="/images/aboutUs.jpeg" alt="FiberLink about us and our story" fill className="object-cover" />
               </div>
-            ))}
+              <div className="absolute -top-6 -left-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-blue-900/30 rounded-lg -z-10"></div>
+            </div>
+            <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-blue-900/30">
+              <h3 className="text-2xl font-bold mb-6 text-white">{t('ourStoryTitle')}</h3>
+              <p className="text-sm text-blue-400 mb-4 font-medium">{t('ourStorySubtitle')}</p>
+              <p className="text-gray-400 mb-6">{t('ourStoryShort')}</p>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-gray-900/30 backdrop-blur-sm rounded-lg border border-blue-900/20">
+              <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-2">{t('ourStoryStats.transactionValue')}</div>
+              <div className="text-gray-400 text-sm">{t('ourStoryStats.transactionValueLabel')}</div>
+            </div>
+            <div className="text-center p-6 bg-gray-900/30 backdrop-blur-sm rounded-lg border border-blue-900/20">
+              <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-2">{t('ourStoryStats.networkCoverage')}</div>
+              <div className="text-gray-400 text-sm">{t('ourStoryStats.networkCoverageLabel')}</div>
+            </div>
+            <div className="text-center p-6 bg-gray-900/30 backdrop-blur-sm rounded-lg border border-blue-900/20">
+              <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-2">{t('ourStoryStats.serviceReliability')}</div>
+              <div className="text-gray-400 text-sm">{t('ourStoryStats.serviceReliabilityLabel')}</div>
+            </div>
           </div>
         </div>
       </section>
+
 
       {/* Case Studies Section */}
       <section className="py-20">
@@ -196,8 +190,53 @@ export default function Home() {
         </div>
       </section>
 
+          {/* Services content */}
+      <section className="py-20 bg-gradient-to-b from-background to-blue-950/20">
+          <div className="container px-4 md:px-6">
+          <div className="mb-12 text-center">
+            <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">{t('fibreTechnologies.title')}</h2>
+            <p className="mx-auto max-w-2xl text-gray-400 mb-8">{t('fibreTechnologies.desc')}</p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            {[
+              {
+                title: t('fibreTechnologies.800gDetails.title', { fallback: '800G AI Superhighway' }),
+                description: t('fibreTechnologies.800gDetails.subtitle', { fallback: 'Asia\'s First 800Gbps Wide Area Network for AI and Supercomputing' }),
+                icon: <Zap className="h-10 w-10 text-blue-400" />,
+                extra: t('fibreTechnologies.800gDetails.description'),
+              },
+              {
+                title: t('technicalCards.backhaulTitle', { fallback: 'Hollow Fiber' }),
+                description: t('technicalCards.backhaulDesc', { fallback: 'Optimized fibre backhaul for 5G, ensuring ultra-low latency, high reliability, and seamless coverage expansion for next-generation mobile networks.' }),
+                icon: <Cable className="h-10 w-10 text-blue-400" />,
+                extra: t('technicalCards.hollowDesc'),
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="rounded-lg border border-blue-900/20 bg-blue-950/20 p-6 backdrop-blur-sm transition-all hover:border-blue-800/30 hover:shadow-lg hover:shadow-blue-500/5"
+              >
+                <div className="mb-4">{item.icon}</div>
+                <h3 className="mb-2 text-xl font-bold text-white">{item.title}</h3>
+                <p className="mb-4 text-gray-400">{item.description}</p>
+                {item.extra && <p className="text-gray-400 text-sm mt-2">{item.extra}</p>}
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 flex justify-center">
+            <Link href={`/${locale}/technical-capabilities`}>
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                {t('technicalCards.cta', { fallback: 'Explore Full Technical Capabilities' })}
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
-      <section className="py-20 bg-gradient-to-b from-blue-950/20 to-background">
+      {/* <section className="py-20 bg-gradient-to-b from-blue-950/20 to-background">
         <div className="container px-4 md:px-6">
           <div className="mb-12 text-center">
             <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">{t('testimonials')}</h2>
@@ -232,7 +271,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <SiteFooter />
     </main>

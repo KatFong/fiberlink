@@ -4,6 +4,7 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useTranslations } from 'next-intl'
+import Link from "next/link"
 
 export default function HeroBanner() {
   const t = useTranslations('hero')
@@ -42,13 +43,17 @@ export default function HeroBanner() {
               {t('ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly')}
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <Button size="lg" className="group bg-blue-600 hover:bg-blue-700">
-                {t('getACustomSolution')}
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button size="lg" variant="outline" className="border-blue-700 text-white hover:bg-blue-900/20">
-                {t('contactUs')}
-              </Button>
+              <Link href="/case-studies">
+                <Button size="lg" className="group bg-blue-600 hover:bg-blue-700">
+                  {t('getACustomSolution')}
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              <Link href="/technical-capabilities">
+                <Button size="lg" variant="outline" className="border-blue-700 text-white hover:bg-blue-900/20">
+                  {t('contactUs')}
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -57,7 +62,7 @@ export default function HeroBanner() {
       {/* Floating data card */}
       <div className="absolute bottom-8 right-8 z-10 hidden md:block">
         <div className="w-64 rounded-lg border border-blue-900/30 bg-blue-950/40 p-4 backdrop-blur-md">
-          <h3 className="mb-2 text-sm font-medium text-blue-400">Our Service Coverage</h3>
+          <h3 className="mb-2 text-sm font-medium text-blue-400">{t('serviceCoverage')}</h3>
           <div className="mb-2 flex items-center justify-between">
             <span className="text-sm text-gray-400">{t('businessClients')}</span>
             <span className="text-sm font-medium text-white">1,000+</span>

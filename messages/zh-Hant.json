@@ -7,6 +7,23 @@
     "contact": "聯絡我們",
     "ourStory": "我們的故事",
     "ourStoryDesc": "為各類型企業提供全面的光纖網絡解決方案",
+    "ourStoryTitle": "從香港電訊工程部到獨立創新",
+    "ourStorySubtitle": "香港數碼基建的新篇章",
+    "ourStoryContent": {
+      "paragraph1": "FiberLink 原本是香港電訊（HKT）的工程部，香港電訊是香港領先的電訊服務提供商。2024年6月，香港電訊的間接全資附屬公司與投資者訂立買賣協議，標誌著 FiberLink 作為獨立公司的新旅程開始。",
+      "paragraph2": "這項交易價值8.70億美元，代表著通過引入長期投資合作夥伴來釋放香港電訊廣泛無源網絡業務價值的戰略舉措。這種合作夥伴關係使雙方能夠分擔與擴展網絡基建以支持業務增長相關的未來資本開支。",
+      "paragraph3": "隨著香港新住宅開發區的規劃、企業數碼化轉型的加快及大灣區的融合日益緊密，FiberLink 將與香港電訊和投資者攜手，擴展其無源基建業務，以支持新的服務項目推出，並拓展至新的地區。",
+      "paragraph4": "這項戰略舉措使香港電訊得以加強資源，以提升及擴闊其提供予消費者的服務項目，特別在輔助數碼化時尚應用領域，並向企業客戶提供創新及先進的技術方案。"
+    },
+    "ourStoryShort": "FiberLink 前身為香港電訊（HKT）工程部，2024年6月獨立成公司，並引入策略投資者，開啟香港數碼基建新篇章。我們與香港電訊及夥伴攜手，為全港提供先進可靠的光纖網絡方案。",
+    "ourStoryStats": {
+      "transactionValue": "8.70億美元",
+      "transactionValueLabel": "交易價值",
+      "networkCoverage": "99.9%",
+      "networkCoverageLabel": "網絡覆蓋率",
+      "serviceReliability": "24/7",
+      "serviceReliabilityLabel": "服務可靠性"
+    },
     "learnMore": "了解更多",
     "successStories": "成功案例",
     "successStoriesDesc": "看看我們的光纖解決方案如何改變各行各業的企業",
@@ -19,7 +36,7 @@
     },
     "service2": {
       "title": "企業網絡解決方案",
-      "description": "全面的網絡解決方案，提供高速、穩定和安全的企業網絡環境"
+      "description": "全面的網絡解決方案，提供高速、穩定和安全的企业網絡環境"
     },
     "service3": {
       "title": "24/7 技術支援",
@@ -81,18 +98,339 @@
       "position": "IT基礎設施主管",
       "company": "中央醫療中心",
       "image": "/placeholder.svg?height=100&width=100"
+    },
+    "aboutPage": {
+      "missionVision": "使命與願景",
+      "missionVisionDesc": "推動香港數碼基建發展，為企業提供最可靠的光纖網絡解決方案",
+      "ourMission": "我們的使命",
+      "missionText": "為香港企業提供最先進、最可靠的光纖網絡基礎設施，支持數碼化轉型和業務增長，成為香港領先的企業光纖網絡服務提供商。",
+      "ourVision": "我們的願景",
+      "visionText": "成為大灣區及亞太地區最受信賴的企業光纖網絡解決方案合作夥伴，推動數碼經濟發展，連接更美好的未來。",
+      "coreValues": "核心價值",
+      "excellence": "卓越品質",
+      "excellenceText": "堅持最高標準的網絡品質和服務水準，確保客戶業務的穩定運行和持續發展。",
+      "customerFirst": "客戶至上",
+      "customerFirstText": "以客戶需求為中心，提供個性化的解決方案和專業的技術支援服務。",
+      "innovation": "創新驅動",
+      "innovationText": "持續投入技術創新和研發，引領行業發展，為客戶創造更大的價值。",
+      "readyToStart": "準備好開始了嗎？",
+      "readyToStartDesc": "讓我們為您的企業提供最適合的光纖網絡解決方案",
+      "contactUs": "聯絡我們",
+      "learnMoreServices": "了解更多服務",
+      "ourTechnical": "我們的技術"
+    },
+    "technicalCards": {
+      "fiberBackboneTitle": "100G/400G/800G",
+      "fiberBackboneDesc": "支援 HKT 高速網絡",
+      "dedicatedLineTitle": "企業專線部署",
+      "dedicatedLineDesc": "確保 SLA 合規",
+      "backhaulTitle": "中空光纖",
+      "backhaulDesc": "優化的光纖回程網絡，確保 5G 的超低延遲、高可靠性和無縫覆蓋擴展，支援新一代移動網絡。",
+      "cta": "探索完整技術能力",
+      "hollowDesc": "中空光纖，顧名思義，是形成中空管狀的過濾膜。濾液流過中空光纖的中心，利用切向流過濾（TFF）原理分離大小分子。"
+    },
+    "fibreTechnologies": {
+      "title": "光纖技術",
+      "desc": "領先的光纖技術支援香港數碼基礎設施",
+      "100g": "100G",
+      "400g": "400G",
+      "800g": "800G",
+      "hollow": "中空光纖",
+      "100g400g800gDesc": "超高容量光傳輸支援企業和營運商的大數據、雲端和AI工作負載。實現面向未來的骨幹和城域網絡。",
+      "800gDetails": {
+        "title": "800G AI 超級公路",
+        "subtitle": "亞洲首個800Gbps AI和超級運算廣域網絡",
+        "description": "FiberLink的800Gbps AI超級公路是專用的光纖私有網絡，提供超高速度、超低延遲、可靠且高度安全的網絡連接。專為滿足企業和機構對AI、機器學習、雲端服務、邊緣運算和其他數據密集型應用驅動的先進超級運算能力日益增長的需求而設計。",
+        "features": {
+          "robustProtection": "強大保護：私有電路確保敏感數據傳輸的強大安全性",
+          "enhancedProductivity": "提升生產力：無與倫比的速度實現實時數據處理",
+          "scalability": "可擴展性：輕鬆升級頻寬並快速部署新的AI服務",
+          "highReliability": "高可靠性：具有強大冗餘和故障轉移機制的卓越可靠性",
+          "costEffectiveness": "成本效益：將多個低速連接整合為單一超高速鏈路"
+        },
+        "applications": "實現大型語言模型AI模型訓練的大數據集快速傳輸，並支援利用高性能運算資源的AI推理應用，如基因組學和科學模擬，以及聯絡中心的AI代理協助和虛擬代理。"
+      }
+    },
+    "case800g": "800G AI 超級公路",
+    "caseLamma": "南丫島光纖網絡覆蓋項目",
+    "caseStudiesPage": {
+      "successStories": "成功案例",
+      "caseStudies": "案例研究",
+      "heroDescription": "探索 FiberLink 創新的光纖解決方案如何改變香港及其他地區的企業和社區。",
+      "awardWinningProjects": "工程項目",
+      "provenResults": "技術實施",
+      "customerSuccess": "項目交付",
+      "featuredProjects": "精選項目",
+      "featuredProjectsDesc": "探索我們最具影響力的項目，展示先進光纖基礎設施的強大能力。",
+      "readFullCaseStudy": "閱讀完整案例研究",
+      "infrastructure": "基礎設施",
+      "communityNetwork": "社區網絡",
+      "aiInfrastructure": "AI 基礎設施",
+      "fiberCores": "光纖芯數",
+      "distance": "距離",
+      "latency": "延遲",
+      "villagesCovered": "覆蓋村落",
+      "maxSpeed": "最高速度",
+      "serviceType": "服務類型",
+      "speed": "速度",
+      "coverage": "覆蓋範圍",
+      "purpose": "用途",
+      "regionWide": "全地區",
+      "aiHpc": "AI/高性能計算",
+      "symmetric": "對稱",
+      "minRead": "分鐘閱讀"
+    },
+    "servicesPage": {
+      "professionalServices": "專業服務",
+      "fiberOpticServices": "光纖網絡服務",
+      "heroDescription": "從設計安裝到持續支援和管理的全面光纖網絡服務。我們的專家團隊提供企業級解決方案，推動您的數碼轉型。",
+      "enterpriseGrade": "企業級",
+      "support247": "24/7 支援",
+      "slaGuaranteed": "SLA 保證",
+      "ourServices": "我們的服務",
+      "servicesDescription": "從初步諮詢到持續支援，我們為您的業務需求提供端到端的光纖解決方案。",
+      "keyFeatures": "主要功能：",
+      "learnMore": "了解更多",
+      "infrastructure": "基礎設施",
+      "enterpriseFiberSolutions": "企業光纖解決方案",
+      "support": "支援",
+      "ctaTitle": "準備體驗我們的專業服務？",
+      "ctaDescription": "查看我們如何為客戶提供創新的光纖解決方案，並了解真實的成功案例。",
+      "ctaButton": "了解我們的成功個案",
+      "features": {
+        "siteSurvey": "現場勘察和網絡設計",
+        "fiberInstallation": "高速光纖電纜安裝",
+        "equipmentConfig": "設備配置和測試",
+        "qualityAssurance": "品質保證和認證",
+        "networkArchitecture": "客製化網絡架構設計",
+        "highBandwidth": "高頻寬連接解決方案",
+        "redundancy": "冗餘和故障轉移保護",
+        "monitoring": "性能監控和優化",
+        "networkMonitoring": "24/7 網絡監控",
+        "incidentResponse": "快速事故響應",
+        "maintenance": "預防性維護",
+        "diagnostics": "遠程診斷和故障排除"
+      },
+      "supportOptions": {
+        "emergency": "緊急支援",
+        "emergencyDesc": "24/7 緊急響應處理關鍵網絡問題",
+        "consultation": "技術諮詢",
+        "consultationDesc": "網絡規劃和優化的專家建議",
+        "onsite": "現場服務",
+        "onsiteDesc": "專業技術人員提供安裝和維護服務"
+      }
+    },
+    "fiberInstallationPage": {
+      "backToServices": "返回服務",
+      "certifiedTechnicians": "認證技術人員",
+      "rapidDeployment": "快速部署",
+      "qualityGuaranteed": "品質保證",
+      "keyFeatures": "主要功能",
+      "featuresDescription": "全面的光纖安裝服務，旨在滿足企業要求。",
+      "siteSurveyTitle": "現場勘察和網絡設計",
+      "siteSurveyDesc": "全面的現場評估和客製化網絡架構規劃，根據您的具體要求量身定制。",
+      "fiberInstallationTitle": "高速光纖電纜安裝",
+      "fiberInstallationDesc": "專業安裝最先進的光纖電纜，具有業界領先的速度和可靠性。",
+      "equipmentConfigTitle": "設備配置和測試",
+      "equipmentConfigDesc": "完整的設置和嚴格測試所有網絡設備，確保最佳性能。",
+      "qualityAssuranceTitle": "品質保證和認證",
+      "qualityAssuranceDesc": "徹底的品質檢查和官方認證，保證企業級標準。",
+      "installationProcess": "安裝流程",
+      "processDescription": "我們經過驗證的四步流程確保無縫的光纖網絡安裝。",
+      "step1Title": "初步諮詢",
+      "step1Desc": "我們評估您目前的基礎設施和業務需求，設計最佳的光纖網絡解決方案。",
+      "step2Title": "現場勘察",
+      "step2Desc": "我們的技術團隊進行全面的現場勘察，規劃最有效的安裝路線。",
+      "step3Title": "安裝",
+      "step3Desc": "專業安裝光纖電纜和設備，對您的營運造成最小干擾。",
+      "step4Title": "測試和認證",
+      "step4Desc": "嚴格測試和認證，確保您的網絡符合所有性能和品質標準。",
+      "benefitsTitle": "為什麼選擇我們的安裝服務",
+      "benefits": {
+        "minimalDowntime": "安裝期間停機時間最短",
+        "futureProof": "面向未來的基礎設施",
+        "projectManagement": "專業項目管理",
+        "support247": "24/7 安裝支援",
+        "documentation": "全面文檔",
+        "optimization": "安裝後優化"
+      }
+    },
+    "networkSolutionsPage": {
+      "backToServices": "返回服務",
+      "category": "企業光纖解決方案",
+      "heroDescription": "從小型企業到大型企業，我們提供可隨您的增長而擴展的定制網絡解決方案。我們的高級企業網絡解決方案專為要求嚴格的商業環境而設計。",
+      "badges": {
+        "customDesign": "客製化設計",
+        "enterpriseSecurity": "企業安全",
+        "highPerformance": "高性能"
+      },
+      "keyFeaturesTitle": "主要功能",
+      "keyFeaturesSubtitle": "為要求嚴苛的企業環境設計的先進企業網絡解決方案。",
+      "features": {
+        "customArchitecture": {
+          "title": "客製化網絡架構設計",
+          "description": "與您的業務目標和增長計劃保持一致的定制網絡設計，確保最佳性能。"
+        },
+        "highBandwidth": {
+          "title": "高頻寬連接解決方案",
+          "description": "支援要求嚴苛的應用程式和未來技術需求的超高速連接。"
+        },
+        "redundancy": {
+          "title": "冗餘和故障轉移保護",
+          "description": "多個備份系統和自動故障轉移機制，確保不間斷的業務營運。"
+        },
+        "monitoring": {
+          "title": "性能監控和優化",
+          "description": "持續監控和主動優化，始終保持最佳的網絡性能。"
+        }
+      },
+      "solutionsTitle": "網絡解決方案",
+      "solutionsSubtitle": "針對各種業務需求和規模的全面網絡解決方案。",
+      "solutions": {
+        "enterprise": {
+          "title": "企業園區網絡",
+          "description": "為大型組織提供全面的園區級光纖網絡",
+          "specs": {
+            "speed": "高達 10Gbps",
+            "connectivity": "多棟建築連接",
+            "architecture": "可擴展架構"
+          }
+        },
+        "dataCenter": {
+          "title": "數據中心互連",
+          "description": "數據中心和雲端設施之間的高速連接",
+          "specs": {
+            "capacity": "100G/400G/800G",
+            "latency": "超低延遲",
+            "uptime": "99.99% 正常運行時間 SLA"
+          }
+        },
+        "metro": {
+          "title": "城域網絡",
+          "description": "跨城市和地區的廣域連接",
+          "specs": {
+            "coverage": "全地區覆蓋",
+            "reliability": "電信級可靠性",
+            "bandwidth": "靈活頻寬"
+          }
+        }
+      },
+      "benefitsTitle": "為什麼選擇我們的網絡解決方案",
+      "benefits": {
+        "scalable": "可擴展的網絡基礎設施",
+        "security": "增強的安全協議",
+        "continuity": "改善的業務連續性",
+        "costEffective": "成本效益的營運",
+        "futureProof": "面向未來的技術",
+        "monitoring": "24/7 網絡監控",
+        "deployment": "快速部署能力",
+        "support": "專家技術支援"
+      }
+    },
+    "technicalSupportPage": {
+      "backToServices": "返回服務",
+      "availability247": "24/7 可用性",
+      "expertTeam": "專家團隊",
+      "slaGuaranteed": "SLA 保證",
+      "networkUptime": "網絡正常運行時間",
+      "averageResponse": "平均響應時間",
+      "monitoring": "監控",
+      "firstCallResolution": "首次通話解決率",
+      "keyFeatures": "主要功能",
+      "featuresDescription": "全面的技術支援服務，確保您的網絡順暢運行。",
+      "networkMonitoringTitle": "24/7 網絡監控",
+      "networkMonitoringDesc": "持續監控您的網絡基礎設施，在問題影響您的業務之前檢測和預防問題。",
+      "incidentResponseTitle": "快速事故響應",
+      "incidentResponseDesc": "針對關鍵網絡問題的快速響應時間，並有升級程序確保最短停機時間。",
+      "maintenanceTitle": "預防性維護",
+      "maintenanceDesc": "定期維護和更新，保持您的網絡在最佳性能水平運行。",
+      "diagnosticsTitle": "遠程診斷和故障排除",
+      "diagnosticsDesc": "先進的遠程診斷工具，快速高效地識別和解決網絡問題。",
+      "supportLevels": "支援級別",
+      "supportLevelsDesc": "選擇最適合您業務需求的支援級別。",
+      "emergencyTitle": "緊急支援",
+      "emergencyDesc": "24/7 緊急響應處理關鍵網絡問題",
+      "consultationTitle": "技術諮詢",
+      "consultationDesc": "網絡規劃和優化的專家建議",
+      "onsiteTitle": "現場服務",
+      "onsiteDesc": "專業技術人員提供安裝和維護服務",
+      "benefitsTitle": "為什麼選擇我們的技術支援",
+      "benefits": {
+        "maxUptime": "最大網絡正常運行時間",
+        "proactiveResolution": "主動問題解決",
+        "expertAssistance": "專家技術協助",
+        "comprehensiveCoverage": "全面服務覆蓋",
+        "costEffective": "成本效益的維護",
+        "optimization": "性能優化",
+        "securityMonitoring": "安全監控",
+        "reporting": "文檔和報告"
+      },
+      "supportFeatures": {
+        "criticalPriority": "關鍵問題優先",
+        "emergencyHotline": "緊急熱線",
+        "immediateEscalation": "立即升級",
+        "onsiteDispatch": "現場派遣",
+        "expertConsultation": "專家諮詢",
+        "performanceOptimization": "性能優化",
+        "planningAssistance": "規劃協助",
+        "bestPractice": "最佳實踐指導",
+        "certifiedTechnicians": "認證技術人員",
+        "equipmentReplacement": "設備更換",
+        "installationSupport": "安裝支援",
+        "maintenanceServices": "維護服務"
+      },
+      "responseTime": {
+        "hour1": "< 1 小時",
+        "hours4": "< 4 小時",
+        "sameDay": "當天",
+        "min15": "< 15分鐘",
+        "availability247365": "24/7/365",
+        "businessHours": "營業時間",
+        "scheduled": "預約"
+      }
     }
   },
+  "contact": {
+    "contactInformation": "聯絡資訊",
+    "contactUs": "聯絡我們",
+    "getInTouch": "聯絡我們的專業團隊，為您提供全面的光纖網絡方案。",
+    "support24x7": "電話支援",
+    "support24x7Desc": "通過電話聯繫我們，獲得專業的技術協助和諮詢服務",
+    "emailSupport": "電子郵件",
+    "emailSupportDesc": "透過電子郵件聯繫我們，我們會盡快回覆您的查詢",
+    "emergencyResponse": "緊急回應",
+    "emergencyResponseDesc": "針對關鍵網絡問題提供優先緊急支援",
+    "officeHours": "辦公時間",
+    "officeHoursDesc": "我們的營業時間，處理一般查詢",
+    "officeHoursTime": "星期一至五：上午9時至下午6時（公眾假期除外）",
+    "ourLocation": "我們的位置",
+    "visitUs": "歡迎蒞臨位於香港鰂魚涌的總部。"
+  },
+  "resources": {
+    "technicalResources": "技術資源",
+    "heroTitle": "資源與文檔",
+    "heroDesc": "全面的技術資源、白皮書和文檔，幫助您了解和實施我們的光纖解決方案。",
+    "documentationResources": "文檔與資源",
+    "documentationDesc": "獲取全面的文檔、白皮書和技術指南，了解我們的光纖解決方案。",
+    "whitepapers": "白皮書",
+    "caseStudies": "案例研究",
+    "faq": "常見問題",
+    "ctaTitle": "需要客製化文檔？",
+    "ctaDesc": "我們的技術團隊可以為您的特定需求創建客製化文檔和實施指南。"
+  },
   "header": {
-    "fibralink": "Fibralink",
+    "Fiberlink": "Fiberlink",
     "home": "首頁",
-    "ourStory": "我們的故事",
-    "caseStudies": "成功案例",
+    "about": "關於",
+    "services": "服務項目",
+    "successStories": "成功案例",
+    "ourSuccessStories": "我們的成功案例",
     "resources": "資源",
+    "caseStudies": "成功案例",
     "contact": "聯絡我們",
-    "support": "支援",
     "getAQuote": "索取報價",
-    "clientLogin": "客戶登入"
+    "clientLogin": "客戶登入",
+    "whiteVersion": "簡潔版"
   },
   "hero": {
     "professionalFiberOpticNetworkSolutions": "專業光纖網絡方案",
@@ -101,8 +439,47 @@
     "ourExpertTeamProvidesHighSpeedStableAndSecureFiberOpticInfrastructureToEnsureYourBusinessRunsSmoothly": "我們的專家團隊為您提供高速、穩定、安全的光纖基建，確保您的業務順利運作",
     "getACustomSolution": "成功案例一覽",
     "contactUs": "探索我們的技術",
+    "serviceCoverage": "服務覆蓋範圍",
     "businessClients": "商業客戶",
     "networkAvailability": "網絡可用率",
     "247TechnicalSupport": "24/7 技術支援"
+  },
+  "footer": {
+    "Fiberlink": "光纖聯接",
+    "desc": "您值得信賴的光纖基礎設施解決方案合作夥伴。",
+    "services": "服務",
+    "professionalFiberInstallation": "專業光纖安裝",
+    "enterpriseNetworkSolutions": "企業網絡解決方案",
+    "technicalSupport": "技術支援",
+    "networkManagementServices": "網絡管理服務",
+    "cloudConnectivitySolutions": "雲端連接解決方案",
+    "ourStory": "我們的故事",
+    "case800g": "800G AI 超級公路",
+    "caseLamma": "南丫島光纖網絡覆蓋項目",
+    "resources": "資源",
+    "caseStudies": "案例研究",
+    "technicalWhitepapers": "技術白皮書",
+    "faq": "常見問題",
+    "enterpriseNetworkBlog": "企業網絡博客",
+    "companyInfo": "公司資訊",
+    "companyDescription": "電訊盈科集團旗下公司，專注於先進光纖解決方案。",
+    "address": "香港鰂魚涌英皇道979號太古坊劍橋大廈",
+    "allRightsReserved": "版權所有。",
+    "privacyPolicy": "私隱政策",
+    "termsOfService": "服務條款",
+    "sitemap": "網站地圖"
+  },
+  "technicalCapabilities": {
+    "heroDesc": "探索我們先進的技術能力，賦能香港數碼基建與企業連接。",
+    "advantages": "技術優勢",
+    "highReliability": "高可靠性：99.99% 網絡可用率及多重備援。",
+    "flexibleScalability": "彈性擴展：快速擴容，配合業務增長。",
+    "smartOandM": "智能運維：主動監控與智能故障管理。",
+    "security": "企業級安全：端到端數據保護。",
+    "lowLatency": "超低延遲：優化即時應用及 5G 傳輸。",
+    "professionalSupport": "專業支援：24/7 專家技術團隊。",
+    "ctaTitle": "準備升級您的網絡？",
+    "ctaDesc": "聯絡我們，討論您的技術需求或索取詳細方案建議。",
+    "ctaContact": "聯絡我們"
   }
-} 
+}
