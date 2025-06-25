@@ -33,8 +33,8 @@ export default function LanguageSwitcher() {
 // White version language switcher - redirects to main site with language
 export function WhiteLanguageSwitcher() {
   const handleLanguageChange = (newLocale: string) => {
-    // Redirect to main site with selected language
-    window.location.href = `/${newLocale}`;
+    // Redirect to main site with selected language and correct basePath
+    window.location.href = `/fiberlink/${newLocale}`;
   };
 
   return (

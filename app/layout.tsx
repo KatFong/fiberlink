@@ -6,8 +6,8 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'FiberLink - 光纖通訊解決方案',
-  description: 'FiberLink 提供專業的光纖通訊基礎設施解決方案',
+  title: 'FiberLink - Fibre Solutions',
+  description: 'FiberLink is a leading provider of fibre solutions for businesses in Hong Kong.',
 }
 
 export default function RootLayout({
