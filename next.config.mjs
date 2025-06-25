@@ -6,6 +6,8 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/fibralink',
+  assetPrefix: '/fibralink/',
   eslint: {
     ignoreDuringBuilds: true,
   },

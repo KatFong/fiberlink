@@ -102,8 +102,8 @@
             if (username === 'hkt' && password === 'hkt-demo') {
                 // Set session
                 sessionStorage.setItem('authenticated', 'true');
-                // Redirect to main site (GitHub Pages default locale)
-                window.location.href = '/zh-Hant/';
+                // Redirect to main site (GitHub Pages with basePath)
+                window.location.href = '/fibralink/zh-Hant/';
             } else {
                 document.getElementById('error').style.display = 'block';
             }

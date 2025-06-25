@@ -6,7 +6,7 @@
     if (
         pathname.includes('.') ||  // Skip files like .css, .js, .png etc
         pathname.includes('login.html') ||
-        pathname.startsWith('/white') ||
+        pathname.includes('/white') ||
         pathname.includes('_next') ||
         pathname.includes('favicon')
     ) {
@@ -18,6 +18,6 @@
     
     // If not authenticated, redirect to login
     if (!isAuthenticated) {
-        window.location.href = '/login.html';
+        window.location.href = '/fibralink/login.html';
     }
 })(); 
