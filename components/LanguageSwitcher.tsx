@@ -39,13 +39,13 @@ export function WhiteLanguageSwitcher() {
 
   return (
     <Select defaultValue="zh-Hant" onValueChange={handleLanguageChange}>
-      <SelectTrigger className="w-[140px] border-gray-300 text-gray-700 hover:border-gray-400 bg-white hover:bg-gray-50">
-        <SelectValue />
+      <SelectTrigger className="w-[140px] border-gray-300 text-gray-900 hover:border-gray-400 bg-white hover:bg-gray-50 focus:text-gray-900">
+        <SelectValue className="text-gray-900" />
       </SelectTrigger>
       <SelectContent className="bg-white border-gray-200">
-        <SelectItem value="en" className="hover:bg-gray-50">English</SelectItem>
-        <SelectItem value="zh-Hant" className="hover:bg-gray-50">繁體中文</SelectItem>
-        <SelectItem value="zh-Hans" className="hover:bg-gray-50">简体中文</SelectItem>
+        <SelectItem value="en" className="hover:bg-gray-50 text-gray-900">English</SelectItem>
+        <SelectItem value="zh-Hant" className="hover:bg-gray-50 text-gray-900">繁體中文</SelectItem>
+        <SelectItem value="zh-Hans" className="hover:bg-gray-50 text-gray-900">简体中文</SelectItem>
       </SelectContent>
     </Select>
   );
